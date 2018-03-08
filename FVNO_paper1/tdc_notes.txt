@@ -1,0 +1,125 @@
+4/27/2016  Remarks to Ashutosh
+
+The "Computational Details" section must provide enough details such that
+others could reproduce the work.  In that regard, I note some things that are
+missing:
+
+(1) What geometries were used?  These should be provided explicitly for all
+the systems in the SI.  See the SI for Harley's paper on CPL for a good
+example:
+
+http://pubs.acs.org/doi/suppl/10.1021/acs.jctc.5b00845
+
+(2) What theoretical methods?  CC2?  CCSD?  
+
+(3) Were core orbitals frozen?
+
+(4) No references are given to methods or basis sets in this section.
+
+(5) Need a better explanation for the reason we use "ghosted" basis functions
+--- and exactly what we mean by that term.
+
+(6) I also note that "Dunning" is a proper noun and should be capitalized.
+
+-----
+
+Results and Discussion
+
+Correlation energies of H2O2: CMOs bad; NOs good.
+
+Polarizabilities for four main test cases.  CMOs good; NOs bad.
+
+-----
+Notes on intro re-write
+
+\cite{Landau10}:
+
+Landau {\em et al.}\ applied the frozen natural orbital approach to the equation-of-motion coupled cluster method for
+ionized states (EOM-IP-CC) and found that a reduction of the virtual space of up to 70% yielded truncation errors within
+ca.\ 1 kcal/mol for ionization energies of organic compounds and non-parallelity errors in potential surfaces of weakly
+bound complexes.
+
+They used two critieria for truncation: the percentage of virtual orbitals (POVO) and occupation threshold (OCCT)
+cutoffs.  The former is simply the fraction of virtual orbitals removed, while the latter is the percentage of total
+natural virtual orbital occupation retained.  Errors in the IEs decreased linearly with OCCT, but not with POVO.  This
+allowed them to predict problematic cases.
+
+TODO: Do the CC, Lambda, and/or perturbed wave function equations converge more slowly in the truncated FVNO basis?
+
+TODO: We need to re-examine our data using the OCCT criteria.
+
+In the construction of many-body electronic wave functions, the scaling of a
+given method with the number of molecular orbitals (MOs) plays a pivotal role
+in the ultimate cost of the calculation.  For many-body methods such as
+coupled cluster (CC),\cite{Shavitt09,Gauss98,Crawford00:review} which, in its
+canonical formulation, displays a higher-order polynomial dependence on the
+number of MOs, numerous mechanisms have been explored over the last half
+century for reducing the size of the virtual-MO space.  Among the earliest of
+these was L{\"o}wdin's\cite{Lowdin55} introduction in 1955 of the concept of
+``natural orbitals'' (NOs) --- orbitals for which the one-electron density
+matrix is diagonal.  L\"owdin demonstrated that NOs yield faster convergence
+of the CI wave function expansion than Hartree-Fock MOs.  Some years later,
+Bender and Davidson\cite{Bender69} used natural orbitals in conjunction with
+CI (NO-CI) calculations to construct and analyze the most important
+configurations contributing to the correlated wave functions for a series of
+closed- and open-shell first-row diatomic hydrides.  This work motivated Barr
+and Davidson a year later\cite{Barr70} to utilize only the virtual natural
+orbitals, obtained obtained by diagonalization of the virtual-virtual block of
+the one-electron density matrix, for NO-CI calculations on the Ne atom.
+
+The concept of pair natural orbitals (PNOs -- originally called
+``pseudonatural orbitals'') was developed by Edmiston and
+Krauss,\cite{Edmiston66} by Meyer\cite{Meyer73}, and by Ahlrichs and
+co-workers.\cite{Ahlrichs75} In the PNO approach, the virtual-virtual MO block
+of the one-electron density is constructed and diagonalized independently for
+each occupied MO pair, leading to separate non-orthogonal virtual spaces.
+Although this approach leads to rapid convergence of the correlation energy
+with respect to the size of the virtual space, it was little used following
+initial investigations until it was resurrected in recent years by Neese and
+co-workers with great success in the context of reduced-scaling electron
+correlation methods.\cite{Neese09,Riplinger16}
+
+Following these pioneering efforts, NOs have been exploited in numerous
+applications to construct compact CI,\cite{Fermann94,Sherrill98:CI,Abrams04}
+multiconfigurational self-consistent-field (MCSCF),\cite{Jensen88} and coupled
+cluster (CC) wave
+functions.\cite{Sosa89,Taube05,Taube08,Landau10,DePrince13:FNOs,DePrince13} In
+many of these studies, the virtual-MO block of the one-electron density is
+first obtained from a simpler model, such as second-order many-body
+perturbation theory (MBPT) calculation, and then diagonalized to yield the
+virtual-NO space.  The space is then truncated based on an
+occupation-number-related criterion and fixed for the subsequent
+correlated-wave-function calculation.  In addition, the final energy is
+commonly corrected using the MP2 correlation energy contributions arising from
+the non-truncated virtual space.  These studies have indicated that, for
+energetics and related properties, even aggressive truncation of the
+virtual-NO space often has only a small impact on the resulting property as
+compared to full-space computations.  For example, Landau {\em et
+al.}\cite{Landau10} found that NOs combined with the equation-of-motion
+coupled cluster method for ionized states (EOM-IP-CC), reduction of the
+virtual space of up to 70% yielded truncation errors within ca.\ 1 kcal/mol
+for ionization energies of organic compounds and non-parallelity errors in
+potential surfaces of weakly bound complexes.
+
+While the above studies have demonstrated clearly the usefulness of NOs for
+aggressively truncating the virtual space when computing correlation energies,
+more complex properties have yet to be considered.  As shown in a number of
+recent
+reports,\cite{Korona04,Russ04,Russ08,McAlexander12,Friedrich15,McAlexander15:LRCC}
+properties that are related to the linear- or higher-order response of the
+wave function to external electric and magnetic fields, for example, exhibit
+much greater sensitivity to the quality of the wave function than simple
+energetics.  In particular, local correlation methods have been
+shown\cite{Korona04,Russ04,Russ08,McAlexander12,McAlexander15:LRCC} to
+require significantly larger domains for properties such as polarizabilities
+than for ground-state energies.  Furthermore, the many-body expansion ---
+which has yielded impressive convergence for energetics and dipole moments for
+clusters of weakly interacting molecules (such as a solute embedded in an
+explicit solvent) --- converges erratically, at best, for spectroscopic
+response properties due to its strong basis-set dependence.\cite{Mach14}  In order to
+account for this, the ability to reduce the dimensionality of the virtual
+space becomes paramount.  Thus, the focus of the present work is on the
+extension of the NO approach to linear-response properties, especially the
+cases of ferquency-dependent dipole polarizabilities and optical rotations of
+chiral compounds.
+
