@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage{bm}
+
+%\title{This is a LaTeX Test}
+%\author{T. Daniel Crawford}
+\begin{document}
+\section{The PNO++ Approach}
+The regular PNO density can be written as,
+\begin{equation}
+\bm{D}^{ij} = \frac{2}{1+\delta_{ij}} (\bm{T}^{ij}\tilde{\bm{T}}^{ij\dagger} + \bm{T}^{ij\dagger}\tilde{\bm{T}}^{ij})
+\end{equation}
+where, 
+\begin{equation}
+\tilde{\bm{T}}^{ij} = 2\bm{T}^{ij} - \bm{T}^{ij\dagger}
+\end{equation} 
+\begin{equation}
+T^{ij}_{ab} = \frac{\langle ab|ij \rangle}{f_{ii} + f_{jj} - \epsilon_a - \epsilon_b}
+\end{equation} 
+In the PNO++ approach, we create a perturbation specific density for each $ij$ pair. For a given
+perturbation A, the PNO++ density is constructed by replacing the ground state $T^{ij}_{ab}$ amplitudes 
+by perturbed amplitudes $T(A)^{ij}_{ab}$,
+\begin{equation}
+\bm{D}(A)^{ij} = \frac{2}{1+\delta_{ij}} (\bm{T}(A)^{ij}\bm{\tilde{T}}(A)^{ij\dagger} + \bm{T}(A)^{ij\dagger}\bm{\tilde{T}}(A)^{ij})
+\end{equation}
+The leading order contribution to these perturbed amplitudes come from $\bar{A}$ which is nothing but 
+the similarity transformed perturbation operator $A$, $e^{-T}\hat{A}e^{T}$. So, we choose the following
+form of the $T(A)^{ij}_{ab}$ amplitudes,
+\begin{equation}
+T(A)^{ij}_{ab} =  \frac{\bar{A}^{ij}_{ab}}{f_{ii} + f_{jj} - \epsilon_a - \epsilon_b} 
+\end{equation} 
+where,
+\begin{equation}
+\bar{A}^{ij}_{ab} = P_{ij}^{ab}\bigg[\sum_e t^{ij}_{eb}[A^a_e - t^m_a A^m_e] -\sum_m t^{mj}_{ab}[A^m_i - t^i_e A^m_e]\bigg]
+\end{equation} 
+\begin{equation}
+P_{ij}^{ab} f_{ij}^{ab} = f_{ij}^{ab} + f_{ji}^{ba} .
+\end{equation}
+
+Some other points:
+\begin{itemize}
+\item For length gauge optical rotation calculations, one can choose either the electric dipole or the angular momentum operator as the perturbation. However in my experience, the electric dipole operator gives better results for all the molecules.
+\item I have sent you the graphs of the $(H_2)_4$ system but similar behavior can be seen for other $(H_2)_n$ systems as well. 
+\item Instead of the occupation threshold, $T_2$ ratios are plotted on the X-axis because the eigen-spectrum of the PNO and PNO++ densities
+are quite different.
+\item All the calculations were done at 589 nm with aug-cc-pVDZ basis set.
+\end{itemize}
+
+%Here's a bulleted list:
+%\begin{itemize}
+%\item This is item 1.
+%\item Another item is here.
+%\item Yet another.
+%\end{itemize}
+%
+%How about an enumerated list?
+%\begin{enumerate}
+%\item This item should be numbered.
+%\item This one, too.
+%\item And this one.
+%\begin{itemize}
+%\item You can nest lists as well.
+%\item OK?
+%\end{itemize}
+%\end{enumerate}
+%
+%\section{Introduction}
+%
+%Sections of the document can be marked and labelled for later reference.
+%
+%\subsection{Example}
+%
+%Subsections, too.
+%
+%\section{Another Section}
+%
+%This one should be numbered ``2''.
+
+\end{document}

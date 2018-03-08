@@ -1,0 +1,416 @@
+\providecommand{\latin}[1]{#1}
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{46}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Shavitt and Bartlett(2009)Shavitt, and Bartlett]{Shavitt09}
+Shavitt,~I.; Bartlett,~R.~J. \emph{Many-Body Methods in Chemistry and Physics:
+  MBPT and Coupled-Cluster Theory}; Cambridge University Press: Cambridge,
+  2009\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gauss(1998)]{Gauss98}
+Gauss,~J. In \emph{Encyclopedia of Computational Chemistry}; Schleyer,~P.,
+  Allinger,~N.~L., Clark,~T., Gasteiger,~J., Kollman,~P.~A., {Schaefer
+  III},~H.~F., Schreiner,~P.~R., Eds.; John Wiley and Sons: Chichester, 1998;
+  pp 615--636\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Crawford and Schaefer(2000)Crawford, and Schaefer]{Crawford00:review}
+Crawford,~T.~D.; Schaefer,~H.~F. In \emph{Reviews in Computational Chemistry};
+  Lipkowitz,~K.~B., Boyd,~D.~B., Eds.; VCH Publishers: New York, 2000; Vol.~14;
+  Chapter 2, pp 33--136\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[L{\"o}wdin(1955)]{Lowdin55}
+L{\"o}wdin,~P.-O. Quantum Theory of Many-Particle Systems. I. Physical
+  Interpretations by Means of Density Matrices, Natural Spin-Orbitals, and
+  Convergence Problems in the Method of Configurational Interaction.
+  \emph{Phys. Rev.} \textbf{1955}, \emph{97}, 1474--1489\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bender and Davidson(1969)Bender, and Davidson]{Bender69}
+Bender,~C.~F.; Davidson,~E.~R. Studies in Configuration Interaction: The
+  First-Row Diatomic Hydrides. \emph{Phys. Rev.} \textbf{1969}, \emph{183},
+  23--30\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Barr and Davidson(1970)Barr, and Davidson]{Barr70}
+Barr,~T.~L.; Davidson,~E.~R. Nature of the Configuration-Interaction Method in
+  {\em Ab Initio} Calculations. I. Ne Ground State. \emph{Phys. Rev. A}
+  \textbf{1970}, \emph{1}, 644--658\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Edmiston and Krauss(1966)Edmiston, and Krauss]{Edmiston66}
+Edmiston,~C.; Krauss,~M. Pseudonatural Orbitals as a Basis for the
+  Superposition of Configurations. I. He$_2^+$. \emph{J. Chem. Phys.}
+  \textbf{1966}, \emph{45}, 1833--1839\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Meyer(1973)]{Meyer73}
+Meyer,~W. {PNO-CI} Studies of Electron Correlation Effects. {I.}
+  {Configuration} Expansion by Means of Nonorthogonal Orbitals, and Application
+  of the Ground State and Ionized States of Methane. \emph{J. Chem. Phys.}
+  \textbf{1973}, \emph{58}, 1017\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ahlrichs \latin{et~al.}(1975)Ahlrichs, Lischka, Staemmler, and
+  Kutzelnigg]{Ahlrichs75}
+Ahlrichs,~R.; Lischka,~H.; Staemmler,~V.; Kutzelnigg,~W. PNO-CI (Pair Natural
+  Orbital Configuration Interaction) and CEPA-PNO (Coupled Cluster Pair
+  Approxiomation with Pair Natural Orbitals) Calculations of Molecular Systems.
+  I. Outline of the Method for Closed-Shell States. \emph{J. Chem. Phys.}
+  \textbf{1975}, \emph{62}, 1225--1234\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Neese \latin{et~al.}(2009)Neese, Hansen, and Liakos]{Neese09}
+Neese,~F.; Hansen,~A.; Liakos,~D.~G. Efficient and Accurate Approximations to
+  the Local Coupled Cluster Singles Doubles Method Using a Truncated Pair
+  Natural Orbital Basis. \emph{J. Chem. Phys.} \textbf{2009}, \emph{131},
+  064103\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Riplinger \latin{et~al.}(2016)Riplinger, Pinski, Becker, Valeev, and
+  Neese]{Riplinger16}
+Riplinger,~C.; Pinski,~P.; Becker,~U.; Valeev,~E.~F.; Neese,~F. Sparse Maps ---
+  A Systematic Infrastructure for Reduced-Scaling Electronic Structure Methods.
+  II. Linear Scaling Domain Based Pair Natural Orbital Coupled Cluster Theory.
+  \emph{J. Chem. Phys.} \textbf{2016}, \emph{144}, 024109\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fermann \latin{et~al.}(1994)Fermann, Sherrill, Crawford, and
+  Schaefer]{Fermann94}
+Fermann,~J.~T.; Sherrill,~C.~D.; Crawford,~T.~D.; Schaefer,~H.~F. Benchmark
+  Studies of Electron Correlation in Six-Electron Systems. \emph{J. Chem.
+  Phys.} \textbf{1994}, \emph{100}, 8132--8139\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sherrill and Schaefer(1999)Sherrill, and Schaefer]{Sherrill98:CI}
+Sherrill,~C.~D.; Schaefer,~H.~F. The Configuration Interaction Method: Advances
+  in Highly Correlated Approaches. \emph{Adv. Quantum Chem.} \textbf{1999},
+  \emph{34}, 143--269\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Abrams and Sherrill(2004)Abrams, and Sherrill]{Abrams04}
+Abrams,~M.~L.; Sherrill,~C.~D. Natural Orbitals as Substitutes for Optimized
+  Orbitals in Complete Active Space Wavefunctions. \emph{Chem. Phys. Lett.}
+  \textbf{2004}, \emph{395}, 227--232\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jensen \latin{et~al.}(1988)Jensen, J{\o}rgensen, {\AA}gren, and
+  Olsen]{Jensen88}
+Jensen,~H. J.~A.; J{\o}rgensen,~P.; {\AA}gren,~H.; Olsen,~J. Second-Order
+  M{\o}ller--Plesset Perturbation Theory as a Configuration and Orbital
+  Generator in Multiconfiguration Self-Consistent Field Calculations. \emph{J.
+  Chem. Phys.} \textbf{1988}, \emph{88}, 3834--3839\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sosa \latin{et~al.}(1989)Sosa, Geertsen, Trucks, Bartlett, and
+  Franz]{Sosa89}
+Sosa,~C.; Geertsen,~J.; Trucks,~G.~W.; Bartlett,~R.~J.; Franz,~J.~A. Selection
+  of the Reduced Virtual Space for Correlated Calculations. An Application to
+  the Energy and Dipole Moment of H$_2$O. \emph{Chem. Phys. Lett.}
+  \textbf{1989}, \emph{159}, 148--154\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Taube and Bartlett(2005)Taube, and Bartlett]{Taube05}
+Taube,~A.~G.; Bartlett,~R.~J. Frozen Natural Orbitals: Systematic Basis Set
+  Truncation for Coupled-Cluster Theory. \emph{Coll. Czech. Chem. Commun.}
+  \textbf{2005}, \emph{70}, 837--850\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Taube and Bartlett(2008)Taube, and Bartlett]{Taube08}
+Taube,~A.~G.; Bartlett,~R.~J. Frozen Natural Orbital Coupled-Cluster Theory:
+  Forces and Application to Decomposition of Nitroethane. \emph{J. Chem. Phys.}
+  \textbf{2008}, \emph{128}, 164101\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Landau \latin{et~al.}(2010)Landau, Khistyaev, Dolgikh, and
+  Krylov]{Landau10}
+Landau,~A.; Khistyaev,~K.; Dolgikh,~S.; Krylov,~A.~I. Frozen Natural Orbitals
+  for Ionized States Within Equation-of-Motion Coupled-Cluster Formalism.
+  \emph{J. Chem. Phys.} \textbf{2010}, \emph{132}, 014109\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[DePrince and Sherrill(2013)DePrince, and Sherrill]{DePrince13:FNOs}
+DePrince,~A.~E.; Sherrill,~C.~D. Accurate Noncovalent Interaction Energies
+  Using Truncated Basis Sets Based on Frozen Natural Orbitals. \emph{J. Chem.
+  Theory Comput.} \textbf{2013}, \emph{9}, 293--299\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[DePrince and Sherrill(2013)DePrince, and Sherrill]{DePrince13}
+DePrince,~A.~E.; Sherrill,~C.~D. Accuracy and Efficiency of Coupled-Cluster
+  Theory Using Density Fitting/Cholesky Decomposition, Frozen Natural Orbitals,
+  and a $t_1$-Transformed Hamiltonian. \emph{J. Chem. Theory. Comp.}
+  \textbf{2013}, \emph{9}, 2687--2696\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Korona \latin{et~al.}(2004)Korona, Pfl{\"u}ger, and Werner]{Korona04}
+Korona,~T.; Pfl{\"u}ger,~K.; Werner,~H.-J. The Effect of Local Approximations
+  in Coupled-Cluster Wave Functions on Dipole Moments and Static Dipole
+  Polarizabilities. \emph{Phys. Chem. Chem. Phys} \textbf{2004}, \emph{6},
+  2059--2065\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Russ and Crawford(2004)Russ, and Crawford]{Russ04}
+Russ,~N.~J.; Crawford,~T.~D. Local Correlation in Coupled Cluster Calculations
+  of Molecular Response Properties. \emph{Chem. Phys. Lett.} \textbf{2004},
+  \emph{400}, 104--111\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Russ and Crawford(2008)Russ, and Crawford]{Russ08}
+Russ,~N.~J.; Crawford,~T.~D. Local Correlation Domains for Coupled Cluster
+  Theory: Optical Rotation and Magnetic Field Perturbations. \emph{Phys. Chem.
+  Chem. Phys.} \textbf{2008}, \emph{10}, 3345--3352\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McAlexander \latin{et~al.}(2012)McAlexander, Mach, and
+  Crawford]{McAlexander12}
+McAlexander,~H.~R.; Mach,~T.~J.; Crawford,~T.~D. Localized Optimized Orbitals,
+  Coupled Cluster Theory, and Chiroptical Response Properties. \emph{Phys.
+  Chem. Chem. Phys.} \textbf{2012}, \emph{14}, 7830--7836\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Friedrich \latin{et~al.}(2015)Friedrich, McAlexander, Kumar, and
+  Crawford]{Friedrich15}
+Friedrich,~J.; McAlexander,~H.~R.; Kumar,~A.; Crawford,~T.~D. Incremental
+  Evaluation of Coupled Cluster Dipole Polarizabilities. \emph{Phys. Chem.
+  Chem. Phys.} \textbf{2015}, \emph{17}, 14284--14296\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McAlexander and Crawford(2016)McAlexander, and
+  Crawford]{McAlexander15:LRCC}
+McAlexander,~H.~R.; Crawford,~T.~D. A Comparison of Three Approaches to the
+  Reduced-Scaling Coupled Cluster Treatment of Non-Resonant Molecular Response
+  Properties. \emph{J. Chem. Theory Comp.} \textbf{2016}, \emph{12},
+  209--222\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mach and Crawford(2014)Mach, and Crawford]{Mach14}
+Mach,~T.~J.; Crawford,~T.~D. Computing Optical Rotation via an $N$-Body
+  Approach. \emph{Theor. Chem. Acc.} \textbf{2014}, \emph{133}, 1449\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Helgaker \latin{et~al.}(2012)Helgaker, Coriani, J{\o}rgensen,
+  Kristensen, Olsen, and Ruud]{Helgaker12}
+Helgaker,~T.; Coriani,~S.; J{\o}rgensen,~P.; Kristensen,~K.; Olsen,~J.;
+  Ruud,~K. Recent Advances in Wave Function-Based Methods of Molecular
+  -Property Calculations. \emph{Chem. Rev.} \textbf{2012}, \emph{112},
+  543--631\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Becke(1993)]{Becke93}
+Becke,~A.~D. Density-functional Thermochemistry. III. The Role of Exact
+  Exchange. \emph{J. Chem. Phys.} \textbf{1993}, \emph{98}, 5648--5652\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stephens \latin{et~al.}(1994)Stephens, Devlin, Chabalowski, and
+  Frisch]{Stephens94:B3LYP}
+Stephens,~P.~J.; Devlin,~F.~J.; Chabalowski,~C.~F.; Frisch,~M.~J. {\em Ab
+  initio} Calculation of Vibrational Absorption and Circular Dichroism Spectra
+  Using Density Functional Theory. \emph{J. Phys. Chem.} \textbf{1994},
+  \emph{98}, 11623--11627\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lee \latin{et~al.}(1988)Lee, Yang, and Parr]{Lee88:LYP}
+Lee,~C.; Yang,~W.; Parr,~R.~G. Development of the Colle-Salvetti
+  Correlation-Energy Formula Into a Functional of the Electron Density.
+  \emph{Phys. Rev. B.} \textbf{1988}, \emph{37}, 785--789\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dunning(1989)]{Dunning89}
+Dunning,~T.~H. Gaussian Basis Sets for Use in Correlated Molecular
+  Calculations. I. The Atoms Boron Through Neon. \emph{J. Chem. Phys.}
+  \textbf{1989}, \emph{90}, 1007\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kendall \latin{et~al.}(1992)Kendall, Dunning, and Harrison]{Kendall92}
+Kendall,~R.~A.; Dunning,~T.~H.; Harrison,~R.~J. Electron Affinities of the
+  First-Row Atoms Revisited. Systematic Basis Sets and Wave Functions. \emph{J.
+  Chem. Phys.} \textbf{1992}, \emph{96}, 6796--6806\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Woon and Dunning(1994)Woon, and Dunning]{Woon94}
+Woon,~D.~E.; Dunning,~T.~H. Gaussian Basis Sets for Use in Correlated Molecular
+  Calculations. IV. Calculation of Static Electrical Response Properties.
+  \emph{J. Chem. Phys.} \textbf{1994}, \emph{100}, 2975--2988\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Purvis and Bartlett(1982)Purvis, and Bartlett]{Purvis82}
+Purvis,~G.~D.; Bartlett,~R.~J. A Full Coupled-Cluster Singles and Doubles
+  Model: The Inclusion of Disconnected Triples. \emph{J. Chem. Phys.}
+  \textbf{1982}, \emph{76}, 1910--1918\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Christiansen \latin{et~al.}(1998)Christiansen, J{\o}rgensen, and
+  H{\"a}ttig]{Christiansen98}
+Christiansen,~O.; J{\o}rgensen,~P.; H{\"a}ttig,~C. Response Functions from
+  Fourier Component Variational Perturbation Theory Applied to a Time-Averaged
+  Quasienergy. \emph{Int. J. Quantum Chem.} \textbf{1998}, \emph{68},
+  1--52\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Turney \latin{et~al.}(2012)Turney, Simmonett, Parrish, Hohenstein,
+  Evangelista, Fermann, Mintz, Burns, Wilke, Abrams, Russ, Leininger, Janssen,
+  Seidl, Allen, Schaefer, King, Valeev, Sherrill, and Crawford]{psi4}
+Turney,~J.~M.; Simmonett,~A.~C.; Parrish,~R.~M.; Hohenstein,~E.~G.;
+  Evangelista,~F.~A.; Fermann,~J.~T.; Mintz,~B.~J.; Burns,~L.~A.; Wilke,~J.~J.;
+  Abrams,~M.~L. \latin{et~al.}  Psi4: An Open-Source Ab Initio Electronic
+  Structure Program. \emph{WIREs. Comput. Mol. Sci.} \textbf{2012}, \emph{2},
+  556--565\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Crawford(2010)]{Crawford10}
+Crawford,~T.~D. In \emph{Recent Progress in Coupled Cluster Methods: Theory and
+  Applications}; Carsky,~P., Pittner,~J., Paldus,~J., Eds.; Challenges and
+  Advances in Computational Chemistry and Physics; Springer: Berlin, 2010;
+  Vol.~11; Chapter 2, pp 37--55\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Koch \latin{et~al.}(1994)Koch, Kobayashi, and
+  J{\o}rgensen]{Koch94:BCC}
+Koch,~H.; Kobayashi,~R.; J{\o}rgensen,~P. Brueckner Coupled Cluster Response
+  Functions. \emph{Int. J. Quantum Chem.} \textbf{1994}, \emph{49}, 835\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Christiansen \latin{et~al.}(1995)Christiansen, Koch, and
+  J{\o}rgensen]{Christiansen95:CC2}
+Christiansen,~O.; Koch,~H.; J{\o}rgensen,~P. The Second-Order Approximate
+  Coupled Cluster Singles and Doubles Model CC2. \emph{Chem. Phys. Lett.}
+  \textbf{1995}, \emph{243}, 409--418\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pedersen \latin{et~al.}(2001)Pedersen, Fern{\'a}ndez, and
+  Koch]{Pedersen01}
+Pedersen,~T.~B.; Fern{\'a}ndez,~B.; Koch,~H. Gauge Invariant Coupled Cluster
+  Response Theory Using Optimized Nonorthogonal Orbitals. \emph{J. Chem. Phys.}
+  \textbf{2001}, \emph{114}, 6983--6993\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rice and Handy(1991)Rice, and Handy]{Rice91}
+Rice,~J.~E.; Handy,~N.~C. The Calculation of Frequency-Dependent
+  Polarizabilities and Pseudo-Energy Derivatives. \emph{J. Chem. Phys.}
+  \textbf{1991}, \emph{94}, 4959--4971\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[H{\"a}ttig and He{\ss}(1995)H{\"a}ttig, and He{\ss}]{Hattig95}
+H{\"a}ttig,~C.; He{\ss},~B.~A. Correlated Frequency-Dependent Polarizabilities
+  and Dispersion Coefficients in the Time-Dependent Second-Order
+  M{\o}ller-Plesset Approximation. \emph{Chem. Phys. Lett.} \textbf{1995},
+  \emph{233}, 359--370\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Aiga and Itoh(1996)Aiga, and Itoh]{Aiga96}
+Aiga,~F.; Itoh,~R. Calculation of Drequency-Dependent Polarizability and
+  Hyperpolarizabilities by the Second-Order M{\o}ller-Plesset Perturbation
+  Theory. \emph{Chem. Phys. Lett.} \textbf{1996}, \emph{251}, 372--380\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
