@@ -1,0 +1,246 @@
+%
+% PROJECT: <ETD> Electronic Thesis and Dissertation Initiative
+%   TITLE: LaTeX report template for ETDs in LaTeX
+%  AUTHOR: Neill Kipp, nkipp@vt.edu
+%     URL: http://etd.vt.edu/latex/
+% SAVE AS: etd.tex
+% REVISED: September 6, 1997 [GMc 8/30/10]
+% 
+
+% Instructions: Remove the data from this document and replace it with your own,
+% keeping the style and formatting information intact.  More instructions
+% appear on the Web site listed above.
+
+%\documentclass[12pt,dvips]{report}
+\documentclass[12pt]{report}
+\usepackage{bm}
+\newenvironment{MyFigure}[1][]{\begin{figure}[#1]\vspace{1.0cm}}{\vspace{1.0cm}\end{figure}}
+%\usepackage[dvips]{graphicx}
+\usepackage{graphicx}
+\newcommand{\overbar}[1]{\mkern 2.2mu\overline{\mkern-2.2mu#1\mkern-2.2mu}\mkern 2.2mu}
+
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+\setlength{\evensidemargin}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\topmargin}{0in}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.1in}
+
+% Uncomment for double-spaced document.
+\renewcommand{\baselinestretch}{2}
+
+\usepackage{epsf}
+
+\begin{document}
+
+\thispagestyle{empty}
+\pagenumbering{roman}
+\begin{center}
+
+% TITLE
+{\Large 
+Toward a Reduced-Scaling Method for Calculating Coupled Cluster Response Properties
+}
+
+\vfill
+
+Ashutosh Kumar
+
+\vfill
+
+Dissertation submitted to the Faculty of the \\
+Virginia Polytechnic Institute and State University \\
+in partial fulfillment of the requirements for the degree of
+
+\vfill
+
+Doctor of Philosophy \\
+in \\
+Literature and Technology
+
+\vfill
+
+T. Daniel Crawford, Chair \\
+Eduard Valeyev \\
+Diego Troya \\
+Alan Esker
+
+\vfill
+
+May 9, 2018 \\
+Blacksburg, Virginia
+
+\vfill
+
+Keywords: Coupled Cluster, Reduced-Scaling, Response Properties
+\\
+Copyright 2018, Ashutosh Kumar
+
+\end{center}
+
+\pagebreak
+
+\thispagestyle{empty}
+\begin{center}
+
+{\large 
+Toward a Reduced-Scaling Method For Calculating Coupled Cluster Response Properties
+}
+
+\vfill
+
+Ashutosh Kumar
+
+\vfill
+
+(ABSTRACT)
+
+\vfill
+
+\end{center}
+One of the central problems limiting the application of accurate {\em ab
+initio} methods to large molecular systems is their high computational costs,
+i.e., their computing and storage requirements exhibit polynomial scaling with
+the size of the system.  For example, the coupled cluster method --- the
+``gold standard'' of quantum chemistry --- scales as ${\cal O}(N^6)$, where
+$N$ refers to the number of molecular orbitals (MOs). 
+
+\vfill
+
+% GRANT INFORMATION
+This work was supported by a grant (CHE-1465149) from
+the U.S. National Science Foundation. Advanced Research Computing 
+Center at Virginia Tech provided the necessary computational resources and technical 
+support for all the calculations reported here.
+%That this work received support from the Southeastern Universities
+%Research Association (SURA) ``Monticello Library Project'' is purely
+%coincidental.
+
+\pagebreak
+
+% Dedication and Acknowledgments are both optional
+% \chapter*{Dedication}
+ \chapter*{Acknowledgments}
+
+\tableofcontents
+\pagebreak
+
+\listoffigures
+\pagebreak
+
+\listoftables
+\pagebreak
+
+\pagenumbering{arabic}
+\pagestyle{myheadings}
+
+\chapter{Introduction}
+\markright{Ashutosh Kumar \hfill Chapter 1. Introduction \hfill}
+
+One of the central problems limiting the application of accurate {\em ab
+initio} methods to large molecular systems is their high computational costs,
+i.e., their computing and storage requirements exhibit polynomial scaling with
+the size of the system.  For example, the coupled cluster method --- the
+``gold standard'' of quantum chemistry --- scales as ${\cal O}(N^6)$, where
+$N$ refers to the number of molecular orbitals (MOs). 
+Over the last half
+century, numerous techniques for the reduction of the size of the MO space
+have been introduced to to overcome this scaling obstacle
+ and L{\"o}wdin’s
+introduction\cite{Lowdin55} of ``natural orbitals'' (NOs) as eigenvectors of
+the one-electron reduced density matrix (1RDM) in 1955 stands as one of the
+earliest works in this area. The frozen virtual NO (FVNO) scheme has been
+successfully applied within coupled cluster theory for calculating correlation
+energies, ionization potentials etc., where truncations of even up to 50\% of
+the virtual space has been shown to introduce minimal
+errors.\cite{Landau10,Mester17}  In the FVNO approach, the NOs are obtained
+from the 1RDM of a less expensive correlated method such as second-order M\o
+ller-Plesset (MP2) theory, and the virtual space is truncated based on the
+orbitals' corresponding occupation numbers.
+
+My research in the Crawford group at Virginia Tech has primarily focused on
+the first successful extension of the FVNO scheme to calculate higher-order
+response properties like dynamic polarizabilities and specific optical
+rotations within the coupled cluster linear-response formalism. The
+conventional FVNO method performs poorly for these properties, yielding large
+errors which increase linearly (at best) with the number of frozen virtual
+orbitals.\cite{Kumar17} My investigation revealed that the source of these
+errors is the removal of diffuse virtual orbitals --- NOs that contribute
+little to the correlation energy (and thus have low occupation numbers), but
+are vital to the description of the wave function responses associated with
+polarizabilities and related properties.  Indeed, applying the FVNO procedure
+only to the non-diffuse virtual space while retaining the diffuse MOs in the
+canonical basis itself greatly minimizes these errors.  However, the number 
+of such orbitals that must be retained could be very high for larger basis
+sets, thus severaly limiting this approach for large molecules.  
+
+Based on these observations, I have developed a technique which I call FVNO++,
+where instead of the ground state MP2-1RDM, a second-order perturbed density
+based on a limited number of iterations of the second-order coupled cluster
+(CC2) method is used to obtain perturbed ``natural orbitals''. A proof of
+concept study where we chose the leading contribution to the full second-order
+perturbed CCSD density as our 1RDM, produced less than 1\% errors even after
+removing close to 50\% of the virtual space in most of the test cases, thus
+validating this approach. The initial results obtained using guess densities
+based on CC2 used in conjunction with corrections for the external truncated
+space have been very promising and more results are forthcoming.
+I will now extend this approach to the local pair natural orbital (LPNO)
+methods, where a separate 1RDM is defined for every occupied pair of MOs
+leading to separate non-orthogonal virtual spaces. The usual LPNO approach
+suffers from the same deficiencies as the FVNO method described above and hence
+performs poorly for such properties.\cite{McAlexander15:LRCC}
+\chapter{Modeling Optical Rotation}
+\chapter{Coupled Cluster Theory}
+\subsection{Ground State}
+\subsection{Response Theory}
+\subsubsection{Sum of States}
+\subsubsection{Linear Response}
+\chapter{Frozen Virtual Natural Orbitals for Coupled-Cluster Linear-Response Theory}
+\input{FVNO.tex}
+\chapter{Frozen Virtual Natural Orbitals++ for Coupled-Cluster Linear-Response Theory}
+\input{FVNO++.tex}
+\chapter{PNO++ approach for Coupled-Cluster Linear-Response Theory}
+\input{PNO++.tex}
+%%%%%%%%%%%%%%%%%
+%
+% Include an EPS figure with this command:
+%   \epsffile{filename.eps}
+%
+
+%%%%%%%%%%%%%%%%
+%
+% Do tables like this:
+
+% \begin{table}
+% \caption{The Graduate School wants captions above the tables.}
+%\begin{center}
+% \begin{tabular}{ccc}
+% x & 1 & 2 \\ \hline
+% 1 & 1 & 2 \\
+% 2 & 2 & 4 \\ \hline
+% \end{tabular}
+%\end{center}
+% \end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% If you are using BibTeX, uncomment the following:
+%\thebibliography
+%\begin{thebibliography}{99}
+%\bibitem{Shavitt09}I. Shavitt and R. J. Bartlett. Many-Body Methods in Chemistry and
+%Physics: MBPT and Coupled-Cluster Theory; Cambridge University
+%Press: Cambridge, 2009. 
+%\end{thebibliography}
+\bibliographystyle{unsrt}
+\bibliography{refs}
+%
+% Otherwise, uncomment the following:
+%\chapter*{Bibliography}
+
+% \appendix
+
+% In LaTeX, each appendix is a "chapter"
+% \chapter{Program Source}
+\end{document}

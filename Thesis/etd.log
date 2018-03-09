@@ -1,0 +1,503 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 MAR 2018 15:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**etd.tex
+(./etd.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
+) (./etd.aux
+
+LaTeX Warning: Label `Eq:density' multiply defined.
+
+
+LaTeX Warning: Label `Eq:dens' multiply defined.
+
+
+LaTeX Warning: Label `Eq:linresp' multiply defined.
+
+
+LaTeX Warning: Label `Eq:perturbed_wfn' multiply defined.
+
+
+LaTeX Warning: Label `Eq:alpha' multiply defined.
+
+
+LaTeX Warning: Label `Eq:MP2' multiply defined.
+
+
+LaTeX Warning: Label `Eq:leading_X1' multiply defined.
+
+
+LaTeX Warning: Label `Eq:singles' multiply defined.
+
+
+LaTeX Warning: Label `Eq:mubar' multiply defined.
+
+
+LaTeX Warning: Label `Eq:X1' multiply defined.
+
+
+LaTeX Warning: Label `Eq:perturb_d' multiply defined.
+
+
+LaTeX Warning: Label `Eq:dipole' multiply defined.
+
+
+LaTeX Warning: Label `Eq:density' multiply defined.
+
+
+LaTeX Warning: Label `Eq:dens' multiply defined.
+
+
+LaTeX Warning: Label `Eq:linresp' multiply defined.
+
+
+LaTeX Warning: Label `Eq:perturbed_wfn' multiply defined.
+
+
+LaTeX Warning: Label `Eq:alpha' multiply defined.
+
+
+LaTeX Warning: Label `Eq:MP2' multiply defined.
+
+
+LaTeX Warning: Label `Eq:leading_X1' multiply defined.
+
+
+LaTeX Warning: Label `Eq:singles' multiply defined.
+
+
+LaTeX Warning: Label `Eq:mubar' multiply defined.
+
+
+LaTeX Warning: Label `Eq:X1' multiply defined.
+
+
+LaTeX Warning: Label `Eq:perturb_d' multiply defined.
+
+
+LaTeX Warning: Label `Eq:dipole' multiply defined.
+
+)
+\openout1 = `etd.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen113
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen114
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 107.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 107.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 107.
+
+[2] [3
+
+] (./etd.toc
+Overfull \hbox (0.22946pt too wide) in paragraph at lines 8--8
+ [] []\OT1/cmr/bx/n/12 Frozen Vir-tual Nat-u-ral Or-bitals for Coupled-Cluster 
+Linear-Response The- 
+ []
+
+[4
+
+] [5] [6])
+\tf@toc=\write3
+\openout3 = `etd.toc'.
+
+ [7] (./etd.lof
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+ [8
+
+])
+\tf@lof=\write4
+\openout4 = `etd.lof'.
+
+ [9] (./etd.lot)
+\tf@lot=\write5
+\openout5 = `etd.lot'.
+
+ [10
+
+]
+Chapter 1.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+LaTeX Warning: Citation `Mester17' on page 1 undefined on input line 158.
+
+[1
+
+]
+
+LaTeX Warning: Citation `Kumar17' on page 2 undefined on input line 169.
+
+[2] [3]
+Chapter 2.
+[4
+
+]
+Chapter 3.
+[5
+
+]
+Chapter 4.
+(./FVNO.tex [6
+
+] [7] [8]
+Overfull \hbox (6.38634pt too wide) in paragraph at lines 160--169
+\OT1/cmr/m/n/12 Here, $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ij\OMS/cmsy/m/n/12 jj
+\OML/cmm/m/it/12 ab\OMS/cmsy/m/n/12 i$ \OT1/cmr/m/n/12 is an an-ti-sym-metrized
+ two-electron in-te-gral in Dirac's no-ta-tion and $\OML/cmm/m/it/12 :pdfilon[]
+; ^^O[]:::$
+ []
+
+[9] [10] [11] [12] <figures_fvno/energy.pdf, id=88, 578.16pt x 361.35pt>
+File: figures_fvno/energy.pdf Graphic file (type pdf)
+
+<use figures_fvno/energy.pdf>
+Package pdftex.def Info: figures_fvno/energy.pdf used on input line 292.
+(pdftex.def)             Requested size: 281.85585pt x 176.1588pt.
+ [13 <./figures_fvno/energy.pdf>]
+<figures_fvno/Mp2c.pdf, id=109, 673.51625pt x 392.46625pt>
+File: figures_fvno/Mp2c.pdf Graphic file (type pdf)
+
+<use figures_fvno/Mp2c.pdf>
+Package pdftex.def Info: figures_fvno/Mp2c.pdf used on input line 314.
+(pdftex.def)             Requested size: 281.85585pt x 164.24182pt.
+ [14 <./figures_fvno/Mp2c.pdf>]
+<figures_fvno/h2o2_polar.pdf, id=130, 578.16pt x 361.35pt>
+File: figures_fvno/h2o2_polar.pdf Graphic file (type pdf)
+
+<use figures_fvno/h2o2_polar.pdf>
+Package pdftex.def Info: figures_fvno/h2o2_polar.pdf used on input line 337.
+(pdftex.def)             Requested size: 281.85585pt x 176.1588pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15] <figures_fvno/spatial.pdf, id=135, 556.0775pt x 360.34625pt>
+File: figures_fvno/spatial.pdf Graphic file (type pdf)
+
+<use figures_fvno/spatial.pdf>
+Package pdftex.def Info: figures_fvno/spatial.pdf used on input line 364.
+(pdftex.def)             Requested size: 281.85585pt x 182.64697pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./figures_fvno/h2o2_polar.pdf>]
+<figures_fvno/sort_spatial.pdf, id=156, 574.145pt x 360.34625pt>
+File: figures_fvno/sort_spatial.pdf Graphic file (type pdf)
+
+<use figures_fvno/sort_spatial.pdf>
+Package pdftex.def Info: figures_fvno/sort_spatial.pdf used on input line 396.
+(pdftex.def)             Requested size: 281.85585pt x 176.90111pt.
+ [17 <./figures_fvno/spatial.pdf>] [18 <./figures_fvno/sort_spatial.pdf>]
+<figures_fvno/polar_static.pdf, id=198, 578.16pt x 361.35pt>
+File: figures_fvno/polar_static.pdf Graphic file (type pdf)
+
+<use figures_fvno/polar_static.pdf>
+Package pdftex.def Info: figures_fvno/polar_static.pdf used on input line 434.
+(pdftex.def)             Requested size: 281.85585pt x 176.1588pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures_fvno/amp_trunc_cmo.pdf, id=199, 689.57625pt x 515.9275pt>
+File: figures_fvno/amp_trunc_cmo.pdf Graphic file (type pdf)
+
+<use figures_fvno/amp_trunc_cmo.pdf>
+Package pdftex.def Info: figures_fvno/amp_trunc_cmo.pdf used on input line 457.
+
+(pdftex.def)             Requested size: 281.85585pt x 210.87823pt.
+ [19]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20 <./figures_fvno/polar_static.pdf>] [21 <./figures_fvno/amp_trunc_cmo.pdf>]
+
+LaTeX Warning: Reference `fig:error_cmpare' on page 22 undefined on input line 
+490.
+
+<figures_fvno/error_cmpare.pdf, id=254, 649.42625pt x 506.89375pt>
+File: figures_fvno/error_cmpare.pdf Graphic file (type pdf)
+
+<use figures_fvno/error_cmpare.pdf>
+Package pdftex.def Info: figures_fvno/error_cmpare.pdf used on input line 493.
+(pdftex.def)             Requested size: 281.85585pt x 219.99425pt.
+ [22 <./figures_fvno/error_cmpare.pdf>]
+<figures_fvno/amp_trunc_no.pdf, id=275, 627.34375pt x 485.815pt>
+File: figures_fvno/amp_trunc_no.pdf Graphic file (type pdf)
+
+<use figures_fvno/amp_trunc_no.pdf>
+Package pdftex.def Info: figures_fvno/amp_trunc_no.pdf used on input line 513.
+(pdftex.def)             Requested size: 281.85585pt x 218.27373pt.
+ [23 <./figures_fvno/amp_trunc_no.pdf>]
+[24] <figures_fvno/Faa.pdf, id=309, 524.96124pt x 384.43625pt>
+File: figures_fvno/Faa.pdf Graphic file (type pdf)
+
+<use figures_fvno/Faa.pdf>
+Package pdftex.def Info: figures_fvno/Faa.pdf used on input line 579.
+(pdftex.def)             Requested size: 281.85585pt x 206.4134pt.
+
+<figures_fvno/X1.pdf, id=310, 724.7075pt x 486.81876pt>
+File: figures_fvno/X1.pdf Graphic file (type pdf)
+
+<use figures_fvno/X1.pdf>
+Package pdftex.def Info: figures_fvno/X1.pdf used on input line 592.
+(pdftex.def)             Requested size: 281.85585pt x 189.33856pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25 <./figures_fvno/Faa.pdf>]
+<figures_fvno/norm.pdf, id=332, 577.15625pt x 415.5525pt>
+File: figures_fvno/norm.pdf Graphic file (type pdf)
+
+<use figures_fvno/norm.pdf>
+Package pdftex.def Info: figures_fvno/norm.pdf used on input line 611.
+(pdftex.def)             Requested size: 281.85585pt x 202.94403pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <./figures_fvno/X1.pdf>]
+<figures_fvno/correctn.pdf, id=353, 572.1375pt x 433.62pt>
+File: figures_fvno/correctn.pdf Graphic file (type pdf)
+
+<use figures_fvno/correctn.pdf>
+Package pdftex.def Info: figures_fvno/correctn.pdf used on input line 642.
+(pdftex.def)             Requested size: 281.85585pt x 213.62032pt.
+ [27 <./figures_fvno/norm.pdf>] [28 <./figures_fvno/correctn.pdf>]
+<figures_fvno/perturbed.pdf, id=395, 577.15625pt x 415.5525pt>
+File: figures_fvno/perturbed.pdf Graphic file (type pdf)
+
+<use figures_fvno/perturbed.pdf>
+Package pdftex.def Info: figures_fvno/perturbed.pdf used on input line 695.
+(pdftex.def)             Requested size: 281.85585pt x 202.94403pt.
+ [29] [30 <./figures_fvno/perturbed.pdf>]
+<figures_fvno/diplength.pdf, id=419, 628.3475pt x 387.4475pt>
+File: figures_fvno/diplength.pdf Graphic file (type pdf)
+
+<use figures_fvno/diplength.pdf>
+Package pdftex.def Info: figures_fvno/diplength.pdf used on input line 736.
+(pdftex.def)             Requested size: 281.85585pt x 173.79404pt.
+ [31] [32 <./figures_fvno/diplength.pdf>]
+[33])
+Chapter 5.
+(./FVNO++.tex [34
+
+
+] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
+
+LaTeX Warning: Reference `fig:error_cmpare' on page 46 undefined on input line 
+432.
+
+[46] [47]
+
+LaTeX Warning: Reference `fig:error_cmpare' on page 48 undefined on input line 
+519.
+
+[48] [49] [50] [51] [52]) [53]
+Chapter 6.
+(./PNO++.tex [54
+
+] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+
+LaTeX Warning: Reference `fig:error_cmpare' on page 66 undefined on input line 
+432.
+
+[66] [67]
+
+LaTeX Warning: Reference `fig:error_cmpare' on page 68 undefined on input line 
+519.
+
+[68] [69] [70] [71] [72]) (./etd.bbl [73] [74
+
+] [75] [76] [77] [78] [79])
+[80] (./etd.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1867 strings out of 493014
+ 26869 string characters out of 6133351
+ 88013 words of memory out of 5000000
+ 5359 multiletter control sequences out of 15000+600000
+ 14418 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,6n,23p,784b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on etd.pdf (90 pages, 757119 bytes).
+PDF statistics:
+ 651 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+
