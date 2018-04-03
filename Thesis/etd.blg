@@ -1,49 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: etd.aux
-The style file: unsrt.bst
+The style file: plain.bst
 Database file #1: refs.bib
 Warning--I didn't find a database entry for "Mester17"
 Warning--I didn't find a database entry for "Kumar17"
 You've used 45 entries,
-            1791 wiz_defined-function locations,
-            774 strings with 12368 characters,
-and the built_in function-call counts, 11454 in all, are:
-= -- 993
-> -- 525
+            2118 wiz_defined-function locations,
+            825 strings with 12842 characters,
+and the built_in function-call counts, 16423 in all, are:
+= -- 1572
+> -- 836
 < -- 7
-+ -- 190
-- -- 145
-* -- 896
-:= -- 1846
++ -- 331
+- -- 278
+* -- 1297
+:= -- 2785
 add.period$ -- 138
 call.type$ -- 45
-change.case$ -- 44
+change.case$ -- 267
 chr.to.int$ -- 0
 cite$ -- 45
-duplicate$ -- 444
-empty$ -- 1113
-format.name$ -- 145
-if$ -- 2553
+duplicate$ -- 534
+empty$ -- 1248
+format.name$ -- 278
+if$ -- 3400
 int.to.chr$ -- 0
 int.to.str$ -- 45
 missing$ -- 46
 newline$ -- 228
-num.names$ -- 51
-pop$ -- 60
+num.names$ -- 96
+pop$ -- 193
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 223
 quote$ -- 0
-skip$ -- 182
+skip$ -- 362
 stack$ -- 0
-substring$ -- 984
+substring$ -- 1217
 swap$ -- 73
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 178
 warning$ -- 0
-while$ -- 96
+while$ -- 141
 width$ -- 47
 write$ -- 505
 (There were 2 warnings)

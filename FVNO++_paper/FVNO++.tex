@@ -64,7 +64,6 @@ we showed that the regular FVNO method performs rather poorly for
 \maketitle
 
 \section{Introduction}
-
 In the construction of many-body electronic wave functions, the scaling of a
 given method with the number of molecular orbitals (MOs) plays a pivotal role
 in the ultimate cost of the calculation.  For many-body methods such as
@@ -276,6 +275,15 @@ the polarizability is unaffected by the truncation of
 the virtual space.
 
 \section{Results and Discussion}
+
+Let me put together the story here:
+
+Our previous work on hydrogen peroxide demonstrated that using ground state
+MP2 density for truncating the virtual space in coupled cluster response 
+calculations resulted in the removal of the diffuse orbitals first since 
+they had the lowest occupation numbers.
+
+
 
 It is well known that deletion of higher-energy canonical Hartree-Fock MOs
 (CMOs) typically leads to significant errors in the recovery of electron

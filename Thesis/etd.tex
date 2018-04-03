@@ -41,7 +41,7 @@
 
 % TITLE
 {\Large 
-Toward a Reduced-Scaling Method for Calculating Coupled Cluster Response Properties
+Towards a Reduced-Scaling Method for Calculating Coupled Cluster Response Properties
 }
 
 \vfill
@@ -85,19 +85,20 @@ Copyright 2018, Ashutosh Kumar
 \thispagestyle{empty}
 \begin{center}
 
-{\large 
-Toward a Reduced-Scaling Method For Calculating Coupled Cluster Response Properties
-}
+{\Large
+Towards a Reduced-Scaling Method For Calculating Coupled Cluster Response Properties 
+}\\
+%\vfill
 
-\vfill
-
+\vspace{8em}
 Ashutosh Kumar
+\vspace{8em}
 
-\vfill
+%\vfill
 
 (ABSTRACT)
 
-\vfill
+%\vfill
 
 \end{center}
 One of the central problems limiting the application of accurate {\em ab
@@ -105,24 +106,30 @@ initio} methods to large molecular systems is their high computational costs,
 i.e., their computing and storage requirements exhibit polynomial scaling with
 the size of the system.  For example, the coupled cluster method --- the
 ``gold standard'' of quantum chemistry --- scales as ${\cal O}(N^6)$, where
-$N$ refers to the number of molecular orbitals (MOs). 
+$N$ is a measure of the system size. Local correlation techniques, however, have 
+the potential to alleviate this scaling problem. While these methods have been
+quite successful in describing correlation energies they perform rather poorly 
+for response properties like dipole polarizabilities and optical rotation. In 
+this work, we identify some of the reasons behind the failure of popular
+local correlation models like Frozen Virtual Natural Orbitals (FVNO) and Pair Natural
+Orbitals (PNO) in capturing the response of the wavefunction. Consequently, we introduce 
+novel modifications to these schemes which we call FVNO++ and PNO++ respectively.
+Initial results indicate that these techniques significantly outperform their 
+conventional counterparts and can be used for calculating response properties 
+of large molecular systems.
 
 \vfill
-
 % GRANT INFORMATION
 This work was supported by a grant (CHE-1465149) from
 the U.S. National Science Foundation. Advanced Research Computing 
 Center at Virginia Tech provided the necessary computational resources and technical 
 support for all the calculations reported here.
-%That this work received support from the Southeastern Universities
-%Research Association (SURA) ``Monticello Library Project'' is purely
-%coincidental.
 
 \pagebreak
 
 % Dedication and Acknowledgments are both optional
 % \chapter*{Dedication}
- \chapter*{Acknowledgments}
+\chapter*{Acknowledgments}
 
 \tableofcontents
 \pagebreak
@@ -139,70 +146,31 @@ support for all the calculations reported here.
 \chapter{Introduction}
 \markright{Ashutosh Kumar \hfill Chapter 1. Introduction \hfill}
 
-One of the central problems limiting the application of accurate {\em ab
-initio} methods to large molecular systems is their high computational costs,
-i.e., their computing and storage requirements exhibit polynomial scaling with
-the size of the system.  For example, the coupled cluster method --- the
-``gold standard'' of quantum chemistry --- scales as ${\cal O}(N^6)$, where
-$N$ refers to the number of molecular orbitals (MOs). 
-Over the last half
-century, numerous techniques for the reduction of the size of the MO space
-have been introduced to to overcome this scaling obstacle
- and L{\"o}wdin’s
-introduction\cite{Lowdin55} of ``natural orbitals'' (NOs) as eigenvectors of
-the one-electron reduced density matrix (1RDM) in 1955 stands as one of the
-earliest works in this area. The frozen virtual NO (FVNO) scheme has been
-successfully applied within coupled cluster theory for calculating correlation
-energies, ionization potentials etc., where truncations of even up to 50\% of
-the virtual space has been shown to introduce minimal
-errors.\cite{Landau10,Mester17}  In the FVNO approach, the NOs are obtained
-from the 1RDM of a less expensive correlated method such as second-order M\o
-ller-Plesset (MP2) theory, and the virtual space is truncated based on the
-orbitals' corresponding occupation numbers.
+Start talking about optical rotation as a property. Science behind this property!!
+Points to talk:
+1. Some history of optical rotation (MC Tam's thesis)
+	a. chirality - same story as my Internal Seminar.
+	b. Drug thalidomide example
+	c. Chiroptical spectroscopy
+	d. Theory as a tool! 
+	e. Some history of OR calculations (Harley's thesis)
+	f. TD-DFT not enough in most cases, CC needed (known problems of DFT)
+	g. Challenges of CC - (mention about MD as well.) 
+	h. My work comes in here!
 
-My research in the Crawford group at Virginia Tech has primarily focused on
-the first successful extension of the FVNO scheme to calculate higher-order
-response properties like dynamic polarizabilities and specific optical
-rotations within the coupled cluster linear-response formalism. The
-conventional FVNO method performs poorly for these properties, yielding large
-errors which increase linearly (at best) with the number of frozen virtual
-orbitals.\cite{Kumar17} My investigation revealed that the source of these
-errors is the removal of diffuse virtual orbitals --- NOs that contribute
-little to the correlation energy (and thus have low occupation numbers), but
-are vital to the description of the wave function responses associated with
-polarizabilities and related properties.  Indeed, applying the FVNO procedure
-only to the non-diffuse virtual space while retaining the diffuse MOs in the
-canonical basis itself greatly minimizes these errors.  However, the number 
-of such orbitals that must be retained could be very high for larger basis
-sets, thus severaly limiting this approach for large molecules.  
-
-Based on these observations, I have developed a technique which I call FVNO++,
-where instead of the ground state MP2-1RDM, a second-order perturbed density
-based on a limited number of iterations of the second-order coupled cluster
-(CC2) method is used to obtain perturbed ``natural orbitals''. A proof of
-concept study where we chose the leading contribution to the full second-order
-perturbed CCSD density as our 1RDM, produced less than 1\% errors even after
-removing close to 50\% of the virtual space in most of the test cases, thus
-validating this approach. The initial results obtained using guess densities
-based on CC2 used in conjunction with corrections for the external truncated
-space have been very promising and more results are forthcoming.
-I will now extend this approach to the local pair natural orbital (LPNO)
-methods, where a separate 1RDM is defined for every occupied pair of MOs
-leading to separate non-orthogonal virtual spaces. The usual LPNO approach
-suffers from the same deficiencies as the FVNO method described above and hence
-performs poorly for such properties.\cite{McAlexander15:LRCC}
-\chapter{Modeling Optical Rotation}
-\chapter{Coupled Cluster Theory}
-\subsection{Ground State}
-\subsection{Response Theory}
-\subsubsection{Sum of States}
-\subsubsection{Linear Response}
+%\chapter{Modeling Optical Rotation}
+\chapter{Coupled Cluster Response Theory}
+%\subsection{Ground State}
+%\subsection{Response Theory}
+%\subsubsection{Sum of States}
+%\subsubsection{Linear Response}
 \chapter{Frozen Virtual Natural Orbitals for Coupled-Cluster Linear-Response Theory}
 \input{FVNO.tex}
-\chapter{Frozen Virtual Natural Orbitals++ for Coupled-Cluster Linear-Response Theory}
+\chapter{Perturbed Natural Orbitals for Coupled-Cluster Linear-Response Theory}
 \input{FVNO++.tex}
-\chapter{PNO++ approach for Coupled-Cluster Linear-Response Theory}
+\chapter{Perturbed Pair Natural Orbitals for Coupled-Cluster Linear-Response Theory}
 \input{PNO++.tex}
+\chapter{Conclusions}
 %%%%%%%%%%%%%%%%%
 %
 % Include an EPS figure with this command:
@@ -233,7 +201,8 @@ performs poorly for such properties.\cite{McAlexander15:LRCC}
 %Physics: MBPT and Coupled-Cluster Theory; Cambridge University
 %Press: Cambridge, 2009. 
 %\end{thebibliography}
-\bibliographystyle{unsrt}
+%\bibliographystyle{unsrt}
+\bibliographystyle{plain}
 \bibliography{refs}
 %
 % Otherwise, uncomment the following:
