@@ -71,122 +71,218 @@ computational costs, i.e., their computing and storage requirements
 exhibit polynomial scaling with the size of the system or equivalently
 with the number of one electron basis functions used in these calculations.
 Specifically, the size of the virtual space is of greater concern since  
-they usually far outnumber the occupied orbitals. Furthermore, the canonical virtual orbitals
-obtained from the Hartree-Fock (HF) procedure are quite de-localized and hence 
+they usually far outnumber the occupied orbitals. The canonical virtual orbitals
+obtained from the Hartree-Fock (HF) procedure are quite delocalized and hence 
 the convergence of a determinantal expansion involving these orbitals
-is quite slow. However, L{\"o}wdin \cite{}showed that using 
+is quite slow. However, L{\"o}wdin showed that using 
 ``natural orbitals'' (NOs) instead of canonical HF orbitals can significantly 
 accelerate the convergence of the configuration interaction (CI)
 wavefunction expansion. The NOs are the eigenvectors of the 
-1 electron reduced density matrix (1-RDM) associated with a wavefunction. 
-The corresponding eigenvalues are commonly referred to 
-as ``occupation numbers''. Since L{\"o}wdin's pioneering 
+1 electron reduced density matrix (1-RDM) with the corresponding eigenvalues
+commonly referred to as 'occupation numbers'. Since L{\"o}wdin's pioneering 
 work, NOs have found a lot of applications especially in techniques 
 aimed at obtaining a compact representation of the virtual space for 
 correlated calculations.\cite{} Within the context of the CC theory,
-the frozen virtual NO (FVNO) scheme where the NOs are usually obtained from 
+the frozen virtual NO (FVNO) scheme where the NOs are obtained from 
 the 1-RDM of a less expensive correlated method such as second-order 
-M{\"o}ller-Plesset (MP2) theory and the virtual space for subsequent 
+M\oller-Plesset (MP2) theory and the virtual space for subsequent 
 CC calculations is truncated based on the orbitals' occupation 
 numbers has been used quite successfully to calculate correlation energies, 
-ionization enthalpies etc\cite{}. For example, Landau et al.\cite{} demonstrated 
-that even after the removal of 70\% of the virtual space, the errors in
-the ionization energies of organic compounds were less than 1 kcal/mol.
-However, it has been well established from previous studies that response 
-properties are usually much more sensitive to the truncation of the wavefunction 
-than simple energetics\cite{}. So we investigated the applicability of such 
-approaches for properties like dynamic polarizabilities using CC linear reponse theory
-\cite{}. In contrast to the earlier studies, we got huge errors in polarizabilities 
-which increased almost linearly with the number of truncated virtual orbitals. 
-It was found that the ground-state MP2 density used to generate the NOs was 
-unable to capture the response of the wavefunction to the external field. 
-For example, the FVNO procedure threw out first, the diffuse virtual 
-orbitals which are very important to describe the low lying Rydberg type 
-excited states (a common feature in majority of chiral compounds) 
-resulting in large errors. This was not unsurprising since these diffuse 
-orbitals have very low contributions to the correlation energy and hence 
-possess very low occupation numbers. Consistent with the findings of Sundholm 
-and co-workers\cite{Sundholm13}, dropping high energy canonical HF 
-virtual orbitals led to very small errors in polarizabilities. 
-We also constructed a first-order perturbed MP2 density hoping that 
-the ONs obtained from this density would be a better metric for 
-estimating the importance of a virtual orbital 
-for response properties but this approach only offered
-minor improvements over the regular FVNO method. However, 
-a suite of methods, conceptually not very different from our 
-perturbed density approach have been proposed recently 
-to calculate CC excitation energies. Baudin and co-workers 
-used natural transition orbitals (NTOs) obtained from approximate 
-CIS(D) transition densities, a scheme which they call CorNFLEx for 
-calculating CC2 excitation energies of large solvated formamide 
-clusters\cite{}. In similar works, H{\"o}fener and Klopper 
-obtained effective virtual spaces by combining MP2 
-ground state density with excited state densities constructed from CIS 
-excitation vectors\cite{} while Mester et al. used MP2 and CIS(D) amplitudes 
-to define their optimal virtual and occupied spaces\cite{Mester17,Mester18}.
-These successful works prompted us to take back a closer look at the 
-reasons behind the failure of our perturbed density approach. 
-Finally, we have developed a new method which we call FVNO++ 
-where we construct a second-order perturbed density to 
-capture the response of the wavefunction to the external electric 
-and magnetic fields. In this paper, we look at some of the basis aspects of 
-this method and report its performance in calculating CC dynamic 
-polarizabilities and specific rotations of a number of chiral molecules .
+ionization enthalpies etc. For example, Landau et al.\cite{} demonstrated 
+that even after 70\% of the virtual space can be 
+
+with EOM-IP method 
+
+found that,
+for NOs combined with the equation-of-motion coupled-cluster
+method for ionized states, reduction of the virtual space by up
+to 70% yielded truncation errors within ca. 1 kcal/mol for
+ionization energies of organic compounds and nonparallelity
+errors in potential surfaces of weakly bound complexes.
+
+\cite{}In our previous paper\cite{}, we used
+this approach in conjunction with CC linear reponse theory to calculate
+dynamic polarizabilities. In contrast to the earlier studies, where truncation
+of more than half of the virtual space yielded minimal errors
+
+
+to 70\% yielded truncation errors within ca. 1 kcal/mol for
+ionization energies of organic compounds and nonparallelity
+errors in potential surfaces of weakly bound complexes.  
+
+More recently, Baudin and co-workers
+successfully applied this method with natural transition orbitals
+obtained from  CIS(D) transition densities, a scheme which they call CorNFLEx
+for calculating CC2 excitation energies of large solvated formamide clusters.
+\cite{}. H\ofener et. al compared 
+
+Recently, Mester and co-workers applied
+this scheme to calculate CC2 excitation energies wherein they used MP2 and 
+CIS(D) amplitudes to construct their guess densities\cite{}. They later
+
+
+My research in the Crawford group at Virginia Tech has primarily focused on
+the first successful extension of the FVNO scheme to calculate higher-order
+response properties like dynamic polarizabilities and specific optical
+rotations within the coupled cluster linear-response formalism. The
+conventional FVNO method performs poorly for these properties, yielding large
+errors which increase linearly (at best) with the number of frozen virtual
+orbitals.\cite{Kumar17} My investigation revealed that the source of these
+errors is the removal of diffuse virtual orbitals --- NOs that contribute
+little to the correlation energy (and thus have low occupation numbers), but
+are vital to the description of the wave function responses associated with
+polarizabilities and related properties.  Indeed, applying the FVNO procedure
+only to the non-diffuse virtual space while retaining the diffuse MOs in the
+canonical basis itself greatly minimizes these errors.  However, the number 
+of such orbitals that must be retained could be very high for larger basis
+sets, thus severaly limiting this approach for large molecules.  
+
+Based on these observations, I have developed a technique which I call FVNO++,
+where instead of the ground state MP2-1RDM, a second-order perturbed density
+based on a limited number of iterations of the second-order coupled cluster
+(CC2) method is used to obtain perturbed ``natural orbitals''. A proof of
+concept study where we chose the leading contribution to the full second-order
+perturbed CCSD density as our 1RDM, produced less than 1\% errors even after
+removing close to 50\% of the virtual space in most of the test cases, thus
+validating this approach. The initial results obtained using guess densities
+based on CC2 used in conjunction with corrections for the external truncated
+space have been very promising and more results are forthcoming.
+I will now extend this approach to the local pair natural orbital (LPNO)
+methods, where a separate 1RDM is defined for every occupied pair of MOs
+leading to separate non-orthogonal virtual spaces. The usual LPNO approach
+suffers from the same deficiencies as the FVNO method described above and hence
+performs poorly for such properties.\cite{McAlexander15:LRCC}
+
+
+%In the construction of many-body electronic wave functions, the scaling of a
+%given method with the number of molecular orbitals (MOs) plays a pivotal role
+%in the ultimate cost of the calculation.  For many-body methods such as
+%coupled cluster (CC),\cite{Shavitt09,Gauss98,Crawford00:review} which, in its
+%canonical formulation, displays a higher-order polynomial dependence on the
+%number of MOs, numerous mechanisms have been explored over the last half
+%century for reducing the size of the virtual-MO space.  Among the earliest of
+%these was L{\"o}wdin's\cite{Lowdin55} introduction in 1955 of the concept of
+%``natural orbitals'' (NOs) --- orbitals for which the one-electron density
+%matrix is diagonal.  L\"owdin demonstrated that NOs yield faster convergence
+%of the configuration interaction (CI) wave function expansion than Hartree-Fock MOs.  Some years later,
+%Bender and Davidson\cite{Bender69} used natural orbitals in conjunction with
+%CI (NO-CI) calculations to construct and analyze the most important
+%configurations contributing to the correlated wave functions for a series of
+%closed- and open-shell first-row diatomic hydrides.  This work motivated Barr
+%and Davidson a year later\cite{Barr70} to utilize only the virtual natural
+%orbitals, obtained by diagonalization of the virtual-virtual block of
+%the one-electron density matrix, for NO-CI calculations on the Ne atom.
+%
+%The concept of pair natural orbitals (PNOs -- originally called
+%``pseudonatural orbitals'') was developed by Edmiston and
+%Krauss,\cite{Edmiston66} by Meyer\cite{Meyer73}, and by Ahlrichs and
+%co-workers.\cite{Ahlrichs75} In the PNO approach, the virtual-virtual MO block
+%of the one-electron density is constructed and diagonalized independently for
+%each occupied MO pair, leading to separate non-orthogonal virtual spaces.
+%Although this approach leads to rapid convergence of the correlation energy
+%with respect to the size of the virtual space, it was little used following
+%initial investigations until it was resurrected in recent years by Neese and
+%co-workers with great success in the context of reduced-scaling electron
+%correlation methods.\cite{Neese09,Riplinger16}
+%
+%Following these pioneering efforts, NOs have been exploited in numerous
+%applications to construct compact CI,\cite{Fermann94,Sherrill98:CI,Abrams04}
+%multiconfigurational self-consistent-field (MCSCF),\cite{Jensen88} and CC wave
+%functions.\cite{Sosa89,Taube05,Taube08,Landau10,DePrince13:FNOs,DePrince13} In
+%many of these studies, the virtual-MO block of the one-electron density is
+%first obtained from a simpler model, such as second-order many-body
+%perturbation theory (MBPT) calculation, and then diagonalized to yield the
+%virtual-NO space.  The space is then truncated based on an
+%occupation-number-related criterion and fixed for the subsequent
+%correlated-wave-function calculation.  In addition, the final energy is
+%commonly corrected using the second-order M\o ller-Plesset perturbation theory
+%(MP2) correlation energy contributions arising from the external virtual
+%space.  These studies have indicated that, for energetics and related
+%properties, even aggressive truncation of the virtual-NO space often has only
+%a small impact on the resulting property as compared to full-space
+%computations.  For example, Landau {\em et al.}\cite{Landau10} found that,
+%for NOs
+%combined with the equation-of-motion coupled-cluster method for ionized states
+%(EOM-IP-CC), reduction of the virtual space by up to 70\% yielded truncation
+%errors within ca.\ 1 kcal/mol for ionization energies of organic compounds and
+%non-parallelity errors in potential surfaces of weakly bound complexes.
+%
+%While the above studies have demonstrated clearly the usefulness of NOs for
+%aggressively truncating the virtual space when computing correlation energies,
+%more complex properties have yet to be considered.  As shown in a number of
+%recent
+%reports,\cite{Korona04,Russ04,Russ08,McAlexander12,Friedrich15,McAlexander15:LRCC}
+%properties that are related to the linear- or higher-order response of the
+%wave function to external electric and magnetic fields, for example, exhibit
+%much greater sensitivity to the quality of the wave function than simple
+%energetics.  In particular, local correlation methods have been
+%shown\cite{Korona04,Russ04,Russ08,McAlexander12,McAlexander15:LRCC} to
+%require significantly larger domains for properties such as polarizabilities
+%than for ground-state energies.  Furthermore, the many-body expansion ---
+%which has yielded impressive convergence for energetics and dipole moments for
+%clusters of weakly interacting molecules (such as a solute embedded in an
+%explicit solvent) --- converges erratically, at best, for spectroscopic
+%response properties due to its strong basis-set dependence.\cite{Mach14}
+%In order to account for this, the ability to reduce the dimensionality
+%of the virtual space becomes paramount.  Thus, the focus of the present
+%work is on the extension of the NO approach to linear-response
+%properties, especially the case of frequency-dependent dipole
+%polarizabilities.
 
 \section{Theoretical Background}
 
 \subsection{Frozen Virtual Natural Orbitals}
 
-%The MP2 unrelaxed one-electron density matrix can be written in terms of
-%spin orbitals as: 
-%\begin{equation}
-%\gamma_{pq} = \langle \Psi^{(1)}|\{ a^{\dagger}_{p}a_q\}|\Psi^{(1)}\rangle,
-%\label{Eq:density}
-%\end{equation}
-%where $|\Psi^{(1)}\rangle$ is the first order correction to the Hartree-Fock
-%wave function,
-%\begin{equation}
-%|\Psi^{(1)}\rangle = \frac{1}{4}\sum_{ijab} t^{ab}_{ij}|\Phi^{ab}_{ij}\rangle
-%\end{equation}
-%and
-%\begin{equation}
-%t^{ab}_{ij} = \frac{\langle ij||ab\rangle}{\epsilon_i + \epsilon_j -
-%\epsilon_a - \epsilon_b}.
-%\end{equation}
-%Here, $\langle ij||ab\rangle$ is an antisymmetrized two-electron integral in
-%Dirac's notation and $\epsilon_i,\epsilon_a...$ refer to the Hartree-Fock
-%molecular orbital energies. We use the indices $i,j,k,...$ to indicate occupied
-%orbitals while $a,b,c,...$ denote virtual orbitals. $|\Phi^{ab}_{ij}\rangle$
-%refers to a doubly-excited determinant where occupied orbitals $i$ and $j$ are
-%replaced by virtuals $a$ and $b$ respectively.  The brackets around the
-%second-quantized operators in Eq.~(\ref{Eq:density}) indicate normal ordering
-%with respect to the reference wave function.
-%
-%In the MP2 based NO method, the virtual-virtual block of $\gamma_{pq}$
-%is constructed,
-%\begin{equation}
-%\gamma_{ab} = \frac{1}{2}\sum_{ijc} t^{ac}_{ij}t^{bc}_{ij},
-%\label{Eq:dens}
-%\end{equation}
-%and then diagonalized,
-%\begin{equation}
-%\bm{\gamma} \bm{V} = \bm{n} \bm{V}.
-%\end{equation}
-%The eigenvectors, $\bm{V}$, are the virtual natural orbitals (NOs), and the
-%eigenvalues, $\bm{n}$, are the associated occupation numbers.  As noted
-%earlier, the wave function amplitudes contain significantly greater sparsity
-%when represented in the NO basis than the original canonical MO basis;
-%orbitals with lower occupation numbers yield $\hat{T}_2$ amplitudes with
-%smaller magnitudes and concomitantly smaller contributions to the correlation
-%energy.  Thus, orbitals with occupation numbers below a selected threshold can
-%be removed without introduction of significant errors, leading to reduced
-%computational cost.  The Hartree-Fock virtual molecular orbitals and
-%associated integrals are then transformed to this truncated NO basis, followed
-%by semicanonicalization of the virtual-virtual block of the Fock matrix, for
-%subsequent computations using higher-order correlation methods such as CC
-%theory.  In most cases, the final correlation energy in the truncated virtual
-%space is corrected using the MP2 energy in the external (non-truncated) NO
-%space to minimize the resulting errors, as described below.
+The MP2 unrelaxed one-electron density matrix can be written in terms of
+spin orbitals as: 
+\begin{equation}
+\gamma_{pq} = \langle \Psi^{(1)}|\{ a^{\dagger}_{p}a_q\}|\Psi^{(1)}\rangle,
+\label{Eq:density}
+\end{equation}
+where $|\Psi^{(1)}\rangle$ is the first order correction to the Hartree-Fock
+wave function,
+\begin{equation}
+|\Psi^{(1)}\rangle = \frac{1}{4}\sum_{ijab} t^{ab}_{ij}|\Phi^{ab}_{ij}\rangle
+\end{equation}
+and
+\begin{equation}
+t^{ab}_{ij} = \frac{\langle ij||ab\rangle}{\epsilon_i + \epsilon_j -
+\epsilon_a - \epsilon_b}.
+\end{equation}
+Here, $\langle ij||ab\rangle$ is an antisymmetrized two-electron integral in
+Dirac's notation and $\epsilon_i,\epsilon_a...$ refer to the Hartree-Fock
+molecular orbital energies. We use the indices $i,j,k,...$ to indicate occupied
+orbitals while $a,b,c,...$ denote virtual orbitals. $|\Phi^{ab}_{ij}\rangle$
+refers to a doubly-excited determinant where occupied orbitals $i$ and $j$ are
+replaced by virtuals $a$ and $b$ respectively.  The brackets around the
+second-quantized operators in Eq.~(\ref{Eq:density}) indicate normal ordering
+with respect to the reference wave function.
+
+In the MP2 based NO method, the virtual-virtual block of $\gamma_{pq}$
+is constructed,
+\begin{equation}
+\gamma_{ab} = \frac{1}{2}\sum_{ijc} t^{ac}_{ij}t^{bc}_{ij},
+\label{Eq:dens}
+\end{equation}
+and then diagonalized,
+\begin{equation}
+\bm{\gamma} \bm{V} = \bm{n} \bm{V}.
+\end{equation}
+The eigenvectors, $\bm{V}$, are the virtual natural orbitals (NOs), and the
+eigenvalues, $\bm{n}$, are the associated occupation numbers.  As noted
+earlier, the wave function amplitudes contain significantly greater sparsity
+when represented in the NO basis than the original canonical MO basis;
+orbitals with lower occupation numbers yield $\hat{T}_2$ amplitudes with
+smaller magnitudes and concomitantly smaller contributions to the correlation
+energy.  Thus, orbitals with occupation numbers below a selected threshold can
+be removed without introduction of significant errors, leading to reduced
+computational cost.  The Hartree-Fock virtual molecular orbitals and
+associated integrals are then transformed to this truncated NO basis, followed
+by semicanonicalization of the virtual-virtual block of the Fock matrix, for
+subsequent computations using higher-order correlation methods such as CC
+theory.  In most cases, the final correlation energy in the truncated virtual
+space is corrected using the MP2 energy in the external (non-truncated) NO
+space to minimize the resulting errors, as described below.
 
 \subsection{Coupled Cluster Response Theory}
 

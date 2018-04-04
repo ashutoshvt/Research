@@ -3,11 +3,12 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: etd.aux
 The style file: plain.bst
 Database file #1: refs.bib
+Warning--I didn't find a database entry for "Sundholm13"
 Warning--I didn't find a database entry for "Mester17"
-Warning--I didn't find a database entry for "Kumar17"
+Warning--I didn't find a database entry for "Mester18"
 You've used 45 entries,
             2118 wiz_defined-function locations,
-            825 strings with 12842 characters,
+            827 strings with 12864 characters,
 and the built_in function-call counts, 16423 in all, are:
 = -- 1572
 > -- 836
@@ -46,4 +47,4 @@ warning$ -- 0
 while$ -- 141
 width$ -- 47
 write$ -- 505
-(There were 2 warnings)
+(There were 3 warnings)

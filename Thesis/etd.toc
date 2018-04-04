@@ -2,29 +2,29 @@
 \contentsline {chapter}{\numberline {2}Coupled Cluster Response Theory}{2}
 \contentsline {chapter}{\numberline {3}Frozen Virtual Natural Orbitals for Coupled-Cluster Linear-Response Theory}{3}
 \contentsline {section}{\numberline {3.1}Introduction}{3}
-\contentsline {section}{\numberline {3.2}Theoretical Background}{5}
-\contentsline {subsection}{\numberline {3.2.1}Frozen Virtual Natural Orbitals}{5}
-\contentsline {subsection}{\numberline {3.2.2}Coupled Cluster Response Theory}{7}
-\contentsline {section}{\numberline {3.3}Computational Details}{8}
-\contentsline {section}{\numberline {3.4}Results and Discussion}{9}
-\contentsline {subsection}{\numberline {3.4.1}Frozen Virtual Orbitals and Response Properties}{11}
+\contentsline {section}{\numberline {3.2}Theoretical Background}{6}
+\contentsline {subsection}{\numberline {3.2.1}Frozen Virtual Natural Orbitals}{6}
+\contentsline {subsection}{\numberline {3.2.2}Coupled Cluster Response Theory}{8}
+\contentsline {section}{\numberline {3.3}Computational Details}{9}
+\contentsline {section}{\numberline {3.4}Results and Discussion}{10}
+\contentsline {subsection}{\numberline {3.4.1}Frozen Virtual Orbitals and Response Properties}{12}
 \contentsline {subsection}{\numberline {3.4.2}Wave Function Truncation in the Virtual-Orbital Space}{17}
-\contentsline {subsection}{\numberline {3.4.3}External-Space Corrections}{23}
+\contentsline {subsection}{\numberline {3.4.3}External-Space Corrections}{24}
 \contentsline {subsection}{\numberline {3.4.4}Perturbed Natural Orbitals}{26}
 \contentsline {subsection}{\numberline {3.4.5}The Dipole-Amplitude Criterion}{28}
-\contentsline {section}{\numberline {3.5}Conclusions}{29}
+\contentsline {section}{\numberline {3.5}Conclusions}{30}
 \contentsline {section}{\numberline {3.6}Acknowledgements}{30}
 \contentsline {chapter}{\numberline {4}Perturbed Natural Orbitals for Coupled-Cluster Linear-Response Theory}{31}
 \contentsline {section}{\numberline {4.1}Introduction}{31}
-\contentsline {section}{\numberline {4.2}Theoretical Background}{33}
-\contentsline {subsection}{\numberline {4.2.1}Frozen Virtual Natural Orbitals}{33}
+\contentsline {section}{\numberline {4.2}Theoretical Background}{34}
+\contentsline {subsection}{\numberline {4.2.1}Frozen Virtual Natural Orbitals}{34}
 \contentsline {subsection}{\numberline {4.2.2}Coupled Cluster Response Theory}{35}
-\contentsline {section}{\numberline {4.3}Computational Details}{36}
-\contentsline {section}{\numberline {4.4}Results and Discussion}{37}
-\contentsline {subsection}{\numberline {4.4.1}Frozen Virtual Orbitals and Response Properties}{38}
-\contentsline {subsection}{\numberline {4.4.2}Wave Function Truncation in the Virtual-Orbital Space}{41}
-\contentsline {subsection}{\numberline {4.4.3}External-Space Corrections}{45}
-\contentsline {subsection}{\numberline {4.4.4}Perturbed Natural Orbitals}{46}
+\contentsline {section}{\numberline {4.3}Computational Details}{37}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{38}
+\contentsline {subsection}{\numberline {4.4.1}Frozen Virtual Orbitals and Response Properties}{39}
+\contentsline {subsection}{\numberline {4.4.2}Wave Function Truncation in the Virtual-Orbital Space}{42}
+\contentsline {subsection}{\numberline {4.4.3}External-Space Corrections}{46}
+\contentsline {subsection}{\numberline {4.4.4}Perturbed Natural Orbitals}{47}
 \contentsline {subsection}{\numberline {4.4.5}The Dipole-Amplitude Criterion}{48}
 \contentsline {section}{\numberline {4.5}Conclusions}{49}
 \contentsline {section}{\numberline {4.6}Acknowledgements}{50}

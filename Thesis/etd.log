@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 APR 2018 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 APR 2018 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,209 +280,174 @@ Chapter 2.
 
 ]
 Chapter 3.
-(./FVNO.tex
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+(./FVNO.tex [3
 
-
-LaTeX Warning: Citation `Mester17' on page 3 undefined on input line 82.
-
-[3
-
-]
-
-LaTeX Warning: Citation `Kumar17' on page 4 undefined on input line 93.
-
-[4] [5]
-Overfull \hbox (6.38634pt too wide) in paragraph at lines 214--223
+] [4] [5]
+Overfull \hbox (6.38634pt too wide) in paragraph at lines 159--168
 \OT1/cmr/m/n/12 Here, $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ij\OMS/cmsy/m/n/12 jj
 \OML/cmm/m/it/12 ab\OMS/cmsy/m/n/12 i$ \OT1/cmr/m/n/12 is an an-ti-sym-metrized
  two-electron in-te-gral in Dirac's no-ta-tion and $\OML/cmm/m/it/12 :pdfilon[]
 ; ^^O[]:::$
  []
 
-[6] [7] [8] <figures_fvno/energy.pdf, id=79, 578.16pt x 361.35pt>
+[6] [7] [8] [9] <figures_fvno/energy.pdf, id=82, 578.16pt x 361.35pt>
 File: figures_fvno/energy.pdf Graphic file (type pdf)
 
 <use figures_fvno/energy.pdf>
-Package pdftex.def Info: figures_fvno/energy.pdf used on input line 346.
+Package pdftex.def Info: figures_fvno/energy.pdf used on input line 291.
 (pdftex.def)             Requested size: 281.85585pt x 176.1588pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9] <figures_fvno/Mp2c.pdf, id=83, 673.51625pt x 392.46625pt>
+ [10 <./figures_fvno/energy.pdf>]
+<figures_fvno/Mp2c.pdf, id=103, 673.51625pt x 392.46625pt>
 File: figures_fvno/Mp2c.pdf Graphic file (type pdf)
 
 <use figures_fvno/Mp2c.pdf>
-Package pdftex.def Info: figures_fvno/Mp2c.pdf used on input line 368.
+Package pdftex.def Info: figures_fvno/Mp2c.pdf used on input line 313.
 (pdftex.def)             Requested size: 281.85585pt x 164.24182pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <./figures_fvno/energy.pdf>]
-<figures_fvno/h2o2_polar.pdf, id=104, 578.16pt x 361.35pt>
+ [11 <./figures_fvno/Mp2c.pdf>]
+<figures_fvno/h2o2_polar.pdf, id=124, 578.16pt x 361.35pt>
 File: figures_fvno/h2o2_polar.pdf Graphic file (type pdf)
 
 <use figures_fvno/h2o2_polar.pdf>
-Package pdftex.def Info: figures_fvno/h2o2_polar.pdf used on input line 391.
+Package pdftex.def Info: figures_fvno/h2o2_polar.pdf used on input line 336.
 (pdftex.def)             Requested size: 281.85585pt x 176.1588pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <./figures_fvno/Mp2c.pdf>] [12 <./figures_fvno/h2o2_polar.pdf>]
-<figures_fvno/spatial.pdf, id=145, 556.0775pt x 360.34625pt>
+[12] <figures_fvno/spatial.pdf, id=128, 556.0775pt x 360.34625pt>
 File: figures_fvno/spatial.pdf Graphic file (type pdf)
 
 <use figures_fvno/spatial.pdf>
-Package pdftex.def Info: figures_fvno/spatial.pdf used on input line 418.
+Package pdftex.def Info: figures_fvno/spatial.pdf used on input line 363.
 (pdftex.def)             Requested size: 281.85585pt x 182.64697pt.
- [13 <./figures_fvno/spatial.pdf>]
-<figures_fvno/sort_spatial.pdf, id=166, 574.145pt x 360.34625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./figures_fvno/h2o2_polar.pdf>]
+<figures_fvno/sort_spatial.pdf, id=149, 574.145pt x 360.34625pt>
 File: figures_fvno/sort_spatial.pdf Graphic file (type pdf)
 
 <use figures_fvno/sort_spatial.pdf>
-Package pdftex.def Info: figures_fvno/sort_spatial.pdf used on input line 450.
+Package pdftex.def Info: figures_fvno/sort_spatial.pdf used on input line 395.
 (pdftex.def)             Requested size: 281.85585pt x 176.90111pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures_fvno/polar_static.pdf, id=167, 578.16pt x 361.35pt>
+ [14 <./figures_fvno/spatial.pdf>] [15 <./figures_fvno/sort_spatial.pdf>]
+<figures_fvno/polar_static.pdf, id=192, 578.16pt x 361.35pt>
 File: figures_fvno/polar_static.pdf Graphic file (type pdf)
 
 <use figures_fvno/polar_static.pdf>
-Package pdftex.def Info: figures_fvno/polar_static.pdf used on input line 488.
+Package pdftex.def Info: figures_fvno/polar_static.pdf used on input line 433.
 (pdftex.def)             Requested size: 281.85585pt x 176.1588pt.
- [14] [15 <./figures_fvno/sort_spatial.pdf>] <figures_fvno/amp_trunc_cmo.pdf, i
-d=193, 689.57625pt x 515.9275pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures_fvno/amp_trunc_cmo.pdf, id=193, 689.57625pt x 515.9275pt>
 File: figures_fvno/amp_trunc_cmo.pdf Graphic file (type pdf)
 
 <use figures_fvno/amp_trunc_cmo.pdf>
-Package pdftex.def Info: figures_fvno/amp_trunc_cmo.pdf used on input line 511.
+Package pdftex.def Info: figures_fvno/amp_trunc_cmo.pdf used on input line 456.
 
 (pdftex.def)             Requested size: 281.85585pt x 210.87823pt.
- [16 <./figures_fvno/polar_static.pdf>]
-[17 <./figures_fvno/amp_trunc_cmo.pdf>]
+ [16]
 
-LaTeX Warning: Reference `fig:error_cmpare' on page 18 undefined on input line 
-544.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures_fvno/error_cmpare.pdf, id=244, 649.42625pt x 506.89375pt>
+[17 <./figures_fvno/polar_static.pdf>] [18 <./figures_fvno/amp_trunc_cmo.pdf>]
+
+LaTeX Warning: Reference `fig:error_cmpare' on page 19 undefined on input line 
+489.
+
+<figures_fvno/error_cmpare.pdf, id=247, 649.42625pt x 506.89375pt>
 File: figures_fvno/error_cmpare.pdf Graphic file (type pdf)
 
 <use figures_fvno/error_cmpare.pdf>
-Package pdftex.def Info: figures_fvno/error_cmpare.pdf used on input line 547.
+Package pdftex.def Info: figures_fvno/error_cmpare.pdf used on input line 492.
 (pdftex.def)             Requested size: 281.85585pt x 219.99425pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures_fvno/amp_trunc_no.pdf, id=245, 627.34375pt x 485.815pt>
+ [19 <./figures_fvno/error_cmpare.pdf>]
+<figures_fvno/amp_trunc_no.pdf, id=268, 627.34375pt x 485.815pt>
 File: figures_fvno/amp_trunc_no.pdf Graphic file (type pdf)
 
 <use figures_fvno/amp_trunc_no.pdf>
-Package pdftex.def Info: figures_fvno/amp_trunc_no.pdf used on input line 567.
+Package pdftex.def Info: figures_fvno/amp_trunc_no.pdf used on input line 512.
 (pdftex.def)             Requested size: 281.85585pt x 218.27373pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[18] [19 <./figures_fvno/error_cmpare.pdf>] [20 <./figures_fvno/amp_trunc_no.pd
-f>] <figures_fvno/Faa.pdf, id=300, 524.96124pt x 384.43625pt>
+ [20 <./figures_fvno/amp_trunc_no.pdf>]
+[21] <figures_fvno/Faa.pdf, id=303, 524.96124pt x 384.43625pt>
 File: figures_fvno/Faa.pdf Graphic file (type pdf)
 
 <use figures_fvno/Faa.pdf>
-Package pdftex.def Info: figures_fvno/Faa.pdf used on input line 633.
+Package pdftex.def Info: figures_fvno/Faa.pdf used on input line 578.
 (pdftex.def)             Requested size: 281.85585pt x 206.4134pt.
 
-<figures_fvno/X1.pdf, id=301, 724.7075pt x 486.81876pt>
+<figures_fvno/X1.pdf, id=304, 724.7075pt x 486.81876pt>
 File: figures_fvno/X1.pdf Graphic file (type pdf)
 
 <use figures_fvno/X1.pdf>
-Package pdftex.def Info: figures_fvno/X1.pdf used on input line 646.
+Package pdftex.def Info: figures_fvno/X1.pdf used on input line 591.
 (pdftex.def)             Requested size: 281.85585pt x 189.33856pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21] <figures_fvno/norm.pdf, id=305, 577.15625pt x 415.5525pt>
+[22 <./figures_fvno/Faa.pdf>]
+<figures_fvno/norm.pdf, id=326, 577.15625pt x 415.5525pt>
 File: figures_fvno/norm.pdf Graphic file (type pdf)
 
 <use figures_fvno/norm.pdf>
-Package pdftex.def Info: figures_fvno/norm.pdf used on input line 665.
+Package pdftex.def Info: figures_fvno/norm.pdf used on input line 610.
 (pdftex.def)             Requested size: 281.85585pt x 202.94403pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./figures_fvno/Faa.pdf>]
-<figures_fvno/correctn.pdf, id=327, 572.1375pt x 433.62pt>
+[23 <./figures_fvno/X1.pdf>]
+<figures_fvno/correctn.pdf, id=347, 572.1375pt x 433.62pt>
 File: figures_fvno/correctn.pdf Graphic file (type pdf)
 
 <use figures_fvno/correctn.pdf>
-Package pdftex.def Info: figures_fvno/correctn.pdf used on input line 696.
+Package pdftex.def Info: figures_fvno/correctn.pdf used on input line 641.
 (pdftex.def)             Requested size: 281.85585pt x 213.62032pt.
- [23 <./figures_fvno/X1.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24 <./figures_fvno/norm.pdf>] [25 <./figures_fvno/correctn.pdf>]
+ [24 <./figures_fvno/norm.pdf>] [25 <./figures_fvno/correctn.pdf>]
 <figures_fvno/perturbed.pdf, id=388, 577.15625pt x 415.5525pt>
 File: figures_fvno/perturbed.pdf Graphic file (type pdf)
 
 <use figures_fvno/perturbed.pdf>
-Package pdftex.def Info: figures_fvno/perturbed.pdf used on input line 749.
+Package pdftex.def Info: figures_fvno/perturbed.pdf used on input line 694.
 (pdftex.def)             Requested size: 281.85585pt x 202.94403pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26] [27 <./figures_fvno/perturbed.pdf>]
+ [26] [27 <./figures_fvno/perturbed.pdf>]
 <figures_fvno/diplength.pdf, id=413, 628.3475pt x 387.4475pt>
 File: figures_fvno/diplength.pdf Graphic file (type pdf)
 
 <use figures_fvno/diplength.pdf>
-Package pdftex.def Info: figures_fvno/diplength.pdf used on input line 790.
+Package pdftex.def Info: figures_fvno/diplength.pdf used on input line 735.
 (pdftex.def)             Requested size: 281.85585pt x 173.79404pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28] [29 <./figures_fvno/diplength.pdf>] [30])
+ [28] [29 <./figures_fvno/diplength.pdf>]
+[30])
 Chapter 4.
 (./FVNO++.tex
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
+
+LaTeX Warning: Citation `Sundholm13' on page 31 undefined on input line 109.
 
 
-LaTeX Warning: Citation `Mester17' on page 31 undefined on input line 85.
+LaTeX Warning: Citation `Mester17' on page 31 undefined on input line 126.
+
+
+LaTeX Warning: Citation `Mester18' on page 31 undefined on input line 126.
 
 [31
 
 
-]
+] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
 
-LaTeX Warning: Citation `Kumar17' on page 32 undefined on input line 96.
+LaTeX Warning: Reference `fig:error_cmpare' on page 43 undefined on input line 
+425.
 
-[32] [33] [34] [35] [36] [37] [38] [39] [40] [41]
+[43] [44]
 
-LaTeX Warning: Reference `fig:error_cmpare' on page 42 undefined on input line 
-487.
+LaTeX Warning: Reference `fig:error_cmpare' on page 45 undefined on input line 
+512.
 
-[42] [43]
-
-LaTeX Warning: Reference `fig:error_cmpare' on page 44 undefined on input line 
-574.
-
-[44] [45] [46] [47] [48] [49]) [50]
+[45] [46] [47] [48] [49]) [50]
 Chapter 5.
 (./PNO++.tex [51
 
@@ -511,10 +476,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1867 strings out of 493014
- 26869 string characters out of 6133351
- 87013 words of memory out of 5000000
- 5359 multiletter control sequences out of 15000+600000
+ 1868 strings out of 493014
+ 26882 string characters out of 6133351
+ 92013 words of memory out of 5000000
+ 5360 multiletter control sequences out of 15000+600000
  14418 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,23p,784b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -534,7 +499,7 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on etd.pdf (89 pages, 752284 bytes).
+Output written on etd.pdf (89 pages, 754130 bytes).
 PDF statistics:
  648 PDF objects out of 1000 (max. 8388607)
  455 compressed objects within 5 object streams
