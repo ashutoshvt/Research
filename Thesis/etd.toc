@@ -17,29 +17,18 @@
 \contentsline {chapter}{\numberline {4}Perturbed Natural Orbitals for Coupled-Cluster Linear-Response Theory}{31}
 \contentsline {section}{\numberline {4.1}Introduction}{31}
 \contentsline {section}{\numberline {4.2}Theoretical Background}{34}
-\contentsline {subsection}{\numberline {4.2.1}Frozen Virtual Natural Orbitals}{34}
-\contentsline {subsection}{\numberline {4.2.2}Coupled Cluster Response Theory}{35}
-\contentsline {section}{\numberline {4.3}Computational Details}{37}
+\contentsline {subsection}{\numberline {4.2.1}Coupled Cluster Response Theory}{34}
+\contentsline {subsection}{\numberline {4.2.2}Perturbed Natural Orbitals}{35}
+\contentsline {section}{\numberline {4.3}Computational Details}{38}
 \contentsline {section}{\numberline {4.4}Results and Discussion}{38}
-\contentsline {subsection}{\numberline {4.4.1}Frozen Virtual Orbitals and Response Properties}{39}
-\contentsline {subsection}{\numberline {4.4.2}Wave Function Truncation in the Virtual-Orbital Space}{42}
-\contentsline {subsection}{\numberline {4.4.3}External-Space Corrections}{46}
-\contentsline {subsection}{\numberline {4.4.4}Perturbed Natural Orbitals}{47}
-\contentsline {subsection}{\numberline {4.4.5}The Dipole-Amplitude Criterion}{48}
-\contentsline {section}{\numberline {4.5}Conclusions}{49}
-\contentsline {section}{\numberline {4.6}Acknowledgements}{50}
-\contentsline {chapter}{\numberline {5}Perturbed Pair Natural Orbitals for Coupled-Cluster Linear-Response Theory}{51}
-\contentsline {section}{\numberline {5.1}Introduction}{51}
-\contentsline {section}{\numberline {5.2}Theoretical Background}{54}
-\contentsline {subsection}{\numberline {5.2.1}Frozen Virtual Natural Orbitals}{54}
-\contentsline {subsection}{\numberline {5.2.2}Coupled Cluster Response Theory}{56}
-\contentsline {section}{\numberline {5.3}Computational Details}{57}
-\contentsline {section}{\numberline {5.4}Results and Discussion}{58}
-\contentsline {subsection}{\numberline {5.4.1}Frozen Virtual Orbitals and Response Properties}{59}
-\contentsline {subsection}{\numberline {5.4.2}Wave Function Truncation in the Virtual-Orbital Space}{62}
-\contentsline {subsection}{\numberline {5.4.3}External-Space Corrections}{66}
-\contentsline {subsection}{\numberline {5.4.4}Perturbed Natural Orbitals}{67}
-\contentsline {subsection}{\numberline {5.4.5}The Dipole-Amplitude Criterion}{68}
-\contentsline {section}{\numberline {5.5}Conclusions}{69}
-\contentsline {section}{\numberline {5.6}Acknowledgements}{70}
-\contentsline {chapter}{\numberline {6}Conclusions}{71}
+\contentsline {subsection}{\numberline {4.4.1}$(H_2)_n$ Helices}{39}
+\contentsline {subsection}{\numberline {4.4.2}beta-pinene}{40}
+\contentsline {subsection}{\numberline {4.4.3}phenyl-ethanol}{40}
+\contentsline {subsection}{\numberline {4.4.4}norbornenone}{40}
+\contentsline {subsection}{\numberline {4.4.5}Sparsity in solvated clustes}{40}
+\contentsline {subsection}{\numberline {4.4.6}Optimized NOs}{40}
+\contentsline {section}{\numberline {4.5}Conclusions}{40}
+\contentsline {section}{\numberline {4.6}Acknowledgements}{40}
+\contentsline {chapter}{\numberline {5}Perturbed Pair Natural Orbitals for Coupled-Cluster Linear-Response Theory}{41}
+\contentsline {section}{\numberline {5.1}Introduction}{41}
+\contentsline {chapter}{\numberline {6}Conclusions}{42}
