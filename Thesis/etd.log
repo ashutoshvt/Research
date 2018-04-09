@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2018 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2018 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -224,7 +224,7 @@ Linear-Response The-
 [5
 
 ] [6]
-Overfull \hbox (3.41698pt too wide) in paragraph at lines 32--32
+Overfull \hbox (3.41698pt too wide) in paragraph at lines 31--31
  [] []\OT1/cmr/bx/n/12 Perturbed Pair Nat-u-ral Or-bitals for Coupled-Cluster L
 inear-Response The- 
  []
@@ -412,17 +412,17 @@ LaTeX Warning: Citation `Mester18' on page 31 undefined on input line 126.
 [31
 
 
-] [32] [33] [34] [35] [36] [37] [38]) [39] [40]
+] [32] [33] [34] [35] [36] [37] [38] [39]) [40] [41]
 Chapter 5.
-(./PNO++.tex) [41
+(./PNO++.tex) [42
 
 ]
 Chapter 6.
-(./etd.bbl [42
+(./etd.bbl [43
 
-] [43
+] [44
 
-] [44] [45] [46] [47] [48]) [49] (./etd.aux)
+] [45] [46] [47] [48] [49]) [50] (./etd.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -454,10 +454,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on etd.pdf (59 pages, 720812 bytes).
+Output written on etd.pdf (60 pages, 722000 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
+ 566 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -370,20 +370,22 @@ of the second-order perturbed density approach which we have named as FVNO++
 in the next sections.
 \subsection{$(H_2)_n$ Helices}
 - Linear structure, chiral, helical arrangement
-- ideal for local correlation problems
+- best case for local correlation problems
 - small masses, high OR
 - Polariz, specific rotation (h2)4, (h2)5, (h2)6, (h2)7, maybe-bigger!! : LG, MVG, aDZ basis
 - diagnostics for FVNO++ approach:
+	- first comparing the structure of the ground state and perturbed density, one can see 
+	  that perturbed density would have a higher rank than ground-state density.
 	- how about incorporating L*L density as well and optimized NOs by better guess densities.
 	- Here we mostly concentrate on capturing the right kind of behavior rather 
   	than savings, since there is not enough sparsity on offer for these cases.
   	This is applicable for other test cases as well.
-
 \subsection{beta-pinene}
 \subsection{phenyl-ethanol}
 \subsection{norbornenone}
-\subsection{Sparsity in solvated clustes}
-\subsection{Optimized NOs}
+Maybe bring MP2 diagnostics here as a reason for poor behavior! I mean here the pi-pi*
+excitations might require accurate T2 amplitudes as well.
+\subsection{Sparsity in solvated cluster}
 
 %It is well known that deletion of higher-energy canonical Hartree-Fock MOs
 %(CMOs) typically leads to significant errors in the recovery of electron
@@ -738,6 +740,21 @@ in the next sections.
 %in the polarizability.
 %
 \section{Conclusions}
+
+- Within the FVNO++ formalism, explored 
+structures of second-order perturbed densities:
+Dab(2)(MU), Dab(2)(P), Dab(2)(MU,L), Dab2(P,L), Dab(2)(L) 
+employing different guesses of first-order perturbed amplitudes.  
+Based on plot studies on small systems, we can conclude that 
+this approach works, has the right behavior/convergence properties.
+however, as usual, specific rotation is more sensitive than
+polarizabilities and requires bigger virtual spaces.
+Real application is solvated clusters, where we conclude that
+there is a lot of sparsity to take advantage of.
+Thus, we are going to implement RI-CC2 linear response
+in conjunction with the FVNO++ aproach.
+Also, this could easily be extended to PNO aproaches for reduced scaling.
+
 %
 %On the basis of the above findings, we conclude that, in the absence of
 %orbital relaxation, virtual NOs are not
